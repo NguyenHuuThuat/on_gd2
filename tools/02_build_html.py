@@ -29,6 +29,16 @@ ontap_path = 'tools/ontap_nhanh_quiz.json'
 if os.path.exists(ontap_path):
     with open(ontap_path, encoding='utf-8') as f:
         ontap_nhanh = json.load(f)
+# Inline the markdown content of each set's source_md so users can read on the web
+for _set in ontap_nhanh.get('sets', []):
+    src = _set.get('source_md')
+    if src:
+        md_path = os.path.join('vcb_cds_202605', src)
+        if os.path.exists(md_path):
+            with open(md_path, encoding='utf-8') as _f:
+                _set['content_md'] = _f.read()
+        else:
+            _set['content_md'] = ''
 data['ontap_nhanh'] = ontap_nhanh
 
 # Load reading guide MD content
@@ -358,6 +368,78 @@ section h2 .badge-count{background:var(--accent);color:#0f172a;padding:2px 10px;
 .otn-mode-badge.exam{background:rgba(198,40,40,0.15);color:var(--red)}
 .otn-mode-badge.review{background:rgba(184,134,11,0.15);color:var(--accent2)}
 
+/* === ÔN TẬP NHANH — Card buttons === */
+.ontap-card .ot-actions{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+.ontap-card .ot-btn{flex:1;padding:8px 10px;border-radius:6px;border:1px solid var(--border);background:#fff;color:var(--text);font-size:12.5px;font-weight:600;cursor:pointer;transition:all 0.15s;text-align:center}
+.ontap-card .ot-btn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
+.ontap-card .ot-btn.read{background:var(--accent);color:#fff;border-color:var(--accent)}
+.ontap-card .ot-btn.read:hover{background:#006B3F}
+.ontap-card .ot-btn.quiz{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+.ontap-card .ot-btn.quiz:hover{background:#9a7009}
+
+/* === ON_TAP READER — fullscreen modal === */
+.otr-overlay{display:none;position:fixed;inset:0;background:rgba(15,30,20,0.55);z-index:2100;overflow-y:auto;padding:16px}
+.otr-overlay.show{display:block}
+.otr-modal{max-width:1280px;margin:0 auto;background:var(--bg);border-radius:14px;min-height:90vh;position:relative;box-shadow:0 16px 56px rgba(0,0,0,0.3);border:1px solid var(--border);overflow:hidden;display:flex;flex-direction:column}
+.otr-head{position:sticky;top:0;background:linear-gradient(135deg,#00853F 0%,#006B3F 100%);color:#fff;padding:16px 24px;border-bottom:3px solid var(--accent2);z-index:10;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.otr-head .otr-icon{font-size:28px}
+.otr-head .otr-info{flex:1;min-width:200px}
+.otr-head h2{margin:0;font-size:18px;font-weight:700;color:#fff;line-height:1.3}
+.otr-head .otr-code{font-family:Consolas,monospace;font-size:12px;color:rgba(255,255,255,0.85);margin-top:2px}
+.otr-head .otr-actions{display:flex;gap:8px;flex-wrap:wrap}
+.otr-head .otr-btn{padding:7px 14px;border-radius:6px;background:rgba(255,255,255,0.18);color:#fff;border:1px solid rgba(255,255,255,0.3);cursor:pointer;font-size:13px;font-weight:600;text-decoration:none;backdrop-filter:blur(4px);transition:all 0.15s}
+.otr-head .otr-btn:hover{background:rgba(255,255,255,0.3)}
+.otr-head .otr-btn.gold{background:var(--accent2);border-color:var(--accent2)}
+.otr-head .otr-btn.gold:hover{background:#9a7009}
+.otr-head .otr-close{width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.15);color:#fff;border:1px solid rgba(255,255,255,0.25);cursor:pointer;font-size:20px;line-height:1;flex-shrink:0;transition:all 0.15s}
+.otr-head .otr-close:hover{background:var(--red);border-color:var(--red);transform:rotate(90deg)}
+
+.otr-body{display:grid;grid-template-columns:260px 1fr;gap:0;flex:1;overflow:hidden}
+@media (max-width:900px){.otr-body{grid-template-columns:1fr}.otr-toc-wrap{display:none}}
+
+.otr-toc-wrap{background:#fafdf9;border-right:1px solid var(--border);overflow-y:auto;max-height:calc(90vh - 80px);padding:16px 0}
+.otr-toc-header{padding:0 16px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.6px;color:var(--accent);font-weight:700;border-bottom:1px dashed var(--border);margin-bottom:8px}
+.otr-toc-list{list-style:none;margin:0;padding:0}
+.otr-toc-list a{display:block;padding:6px 16px 6px 20px;color:var(--text);text-decoration:none;font-size:13px;border-left:3px solid transparent;transition:all 0.15s;line-height:1.4}
+.otr-toc-list a:hover{background:rgba(0,133,63,0.06);color:var(--accent);border-left-color:rgba(0,133,63,0.3)}
+.otr-toc-list a.active{background:rgba(0,133,63,0.1);color:var(--accent);border-left-color:var(--accent);font-weight:600}
+.otr-toc-list a.h3{padding-left:32px;font-size:12.5px;color:var(--muted)}
+.otr-toc-list a.h3:hover,.otr-toc-list a.h3.active{color:var(--accent)}
+
+.otr-content-wrap{overflow-y:auto;max-height:calc(90vh - 80px);padding:24px 36px 60px;background:#fff;scroll-behavior:smooth}
+.otr-content{max-width:880px;margin:0 auto;font-size:14.5px;line-height:1.78;color:var(--text)}
+.otr-content h1{font-size:26px;color:var(--accent);border-bottom:3px solid var(--accent);padding-bottom:10px;margin:0 0 18px;font-weight:700}
+.otr-content h2{font-size:20px;color:var(--accent);margin:32px 0 12px;padding:10px 14px;background:linear-gradient(90deg,rgba(0,133,63,0.08),transparent);border-left:4px solid var(--accent);border-radius:0 8px 8px 0;font-weight:700;scroll-margin-top:80px}
+.otr-content h3{font-size:16.5px;color:var(--text);margin:22px 0 10px;font-weight:700;padding-left:10px;border-left:3px solid var(--accent2);scroll-margin-top:80px}
+.otr-content p{margin:0 0 12px}
+.otr-content ul,.otr-content ol{margin:8px 0 14px 0;padding-left:28px}
+.otr-content li{margin-bottom:5px}
+.otr-content li::marker{color:var(--accent2)}
+.otr-content strong{color:var(--accent);font-weight:700}
+.otr-content em{color:var(--muted);font-style:italic}
+.otr-content code{background:rgba(0,133,63,0.08);color:var(--accent);padding:2px 7px;border-radius:4px;font-family:Consolas,monospace;font-size:13px;font-weight:600}
+.otr-content blockquote{margin:14px 0;padding:12px 18px;background:linear-gradient(90deg,rgba(184,134,11,0.08),rgba(184,134,11,0.02));border-left:4px solid var(--accent2);border-radius:0 8px 8px 0;color:var(--text);font-size:14px}
+.otr-content blockquote p{margin:0}
+.otr-content blockquote p+p{margin-top:6px}
+.otr-content table{border-collapse:collapse;width:100%;margin:16px 0;font-size:13.5px;border-radius:8px;overflow:hidden;box-shadow:var(--shadow)}
+.otr-content table th{background:var(--accent);color:#fff;padding:10px 12px;text-align:left;font-weight:700;font-size:13px}
+.otr-content table td{padding:8px 12px;border-bottom:1px solid var(--border);vertical-align:top;background:#fff}
+.otr-content table tr:nth-child(even) td{background:#fafdf9}
+.otr-content table tr:hover td{background:rgba(0,133,63,0.05)}
+.otr-content a{color:var(--accent);text-decoration:none;font-weight:500;border-bottom:1px dashed var(--accent)}
+.otr-content a:hover{border-bottom-style:solid}
+.otr-content hr{border:none;border-top:2px dashed var(--border);margin:24px 0}
+.otr-content pre{background:#f3f7f1;padding:14px 18px;border-radius:8px;overflow-x:auto;font-size:12.5px;line-height:1.6;border:1px solid var(--border)}
+/* Highlight checkboxes from "checklist" lists */
+.otr-content input[type=checkbox]{margin-right:8px;width:14px;height:14px;accent-color:var(--accent);vertical-align:middle}
+/* Section anchor link visible on hover */
+.otr-content h2:hover::after,.otr-content h3:hover::after{content:" 🔗";font-size:0.7em;color:var(--muted);opacity:0.6}
+
+/* Floating "back to top" inside reader */
+.otr-totop{position:absolute;bottom:24px;right:24px;width:42px;height:42px;border-radius:50%;background:var(--accent);color:#fff;border:none;cursor:pointer;font-size:20px;box-shadow:0 4px 14px rgba(0,133,63,0.4);display:none;align-items:center;justify-content:center;transition:transform 0.15s;z-index:5}
+.otr-totop:hover{transform:translateY(-2px)}
+.otr-totop.show{display:flex}
+
 /* Reference tables */
 .ref-section{background:var(--card);border-radius:12px;padding:20px;margin:14px 0}
 .ref-section h2{margin-top:0;font-size:18px}
@@ -638,6 +720,34 @@ section h2 .badge-count{background:var(--accent);color:#0f172a;padding:2px 10px;
 </div>
 </div>
 
+<!-- ON_TAP READER modal — beautiful MD viewer with TOC -->
+<div class="otr-overlay" id="otr-overlay">
+<div class="otr-modal" id="otr-modal">
+<div class="otr-head" id="otr-head">
+<span class="otr-icon">📘</span>
+<div class="otr-info">
+<h2 id="otr-title">Đang tải...</h2>
+<div class="otr-code" id="otr-code"></div>
+</div>
+<div class="otr-actions">
+<button class="otr-btn gold" id="otr-quiz-btn">✍️ Làm trắc nghiệm</button>
+<button class="otr-btn" onclick="otrCopyLink()">🔗 Sao chép link</button>
+</div>
+<button class="otr-close" onclick="closeOntapReader()" title="Đóng (Esc)">×</button>
+</div>
+<div class="otr-body">
+<aside class="otr-toc-wrap" id="otr-toc-wrap">
+<div class="otr-toc-header">📑 Mục lục</div>
+<ul class="otr-toc-list" id="otr-toc"></ul>
+</aside>
+<div class="otr-content-wrap" id="otr-content-wrap">
+<article class="otr-content" id="otr-content">⏳ Đang render markdown...</article>
+<button class="otr-totop" id="otr-totop" onclick="document.getElementById('otr-content-wrap').scrollTo({top:0,behavior:'smooth'})" title="Lên đầu trang">↑</button>
+</div>
+</div>
+</div>
+</div>
+
 <div class="drawer-overlay" id="overlay" onclick="closeDrawer()"></div>
 <div class="drawer" id="drawer">
 <div class="drawer-inner">
@@ -787,6 +897,11 @@ function init(){
   });
 
   document.addEventListener('keydown', e=>{
+    // ON_TAP reader modal — its own handler
+    if(document.getElementById('otr-overlay').classList.contains('show')){
+      otrKeyHandler(e);
+      return;
+    }
     // Ôn tập nhanh modal has its own keyboard handler — skip global Esc only
     if(document.getElementById('otn-overlay').classList.contains('show')){
       otnKeyHandler(e);
@@ -1668,13 +1783,18 @@ function renderOntapNhanhGrid(){
       if(history[id]){ seen++; if(history[id].correct) correct++; }
     });
     const pct = seen ? Math.round(correct*100/seen) : 0;
-    return `<div class="ontap-card" onclick="openOntapNhanh('practice','${s.id}')">
+    const hasContent = !!(s.content_md && s.content_md.trim());
+    return `<div class="ontap-card">
       <div class="ot-title">${escapeHtml(s.title)}</div>
       <div class="ot-code">${escapeHtml(s.code||'')}</div>
       <div class="ot-stats">
-        <span><span class="v">${total}</span> câu</span>
+        <span><span class="v">${total}</span> câu trắc nghiệm</span>
         <span>Đã làm: <span class="v">${seen}</span></span>
         <span>Đúng: <span class="v">${correct}</span> (${pct}%)</span>
+      </div>
+      <div class="ot-actions">
+        ${hasContent?`<button class="ot-btn read" onclick="openOntapReader('${s.id}')">📖 Đọc nội dung</button>`:''}
+        <button class="ot-btn quiz" onclick="openOntapNhanh('practice','${s.id}')">✍️ Trắc nghiệm</button>
       </div>
     </div>`;
   }).join('');
@@ -2009,6 +2129,155 @@ function otnRetakeWrong(){
   otnState.revealed = new Set();
   otnState.finished = false;
   showOtnQuestion();
+}
+
+// === ON_TAP READER (beautiful MD viewer) ===
+let otrCurrentSetId = '';
+
+function openOntapReader(setId){
+  const set = (ONTAP_NHANH.sets||[]).find(s => s.id === setId);
+  if(!set){ alert('Không tìm thấy bộ tài liệu.'); return; }
+  if(!set.content_md){ alert('Chưa có nội dung MD cho bộ này — chạy lại rebuild.bat.'); return; }
+  otrCurrentSetId = setId;
+  document.getElementById('otr-overlay').classList.add('show');
+  document.body.style.overflow = 'hidden';
+  document.getElementById('otr-title').textContent = set.title;
+  document.getElementById('otr-code').textContent = (set.code||'') + ' · Nguồn: ' + (set.source_md||'');
+  document.getElementById('otr-quiz-btn').onclick = ()=>{
+    closeOntapReader();
+    setTimeout(()=>openOntapNhanh('practice', setId), 250);
+  };
+  // Reset scroll + render
+  document.getElementById('otr-content-wrap').scrollTop = 0;
+  renderOntapReaderMd(set);
+}
+
+function closeOntapReader(){
+  document.getElementById('otr-overlay').classList.remove('show');
+  document.body.style.overflow = '';
+  otrCurrentSetId = '';
+}
+
+function renderOntapReaderMd(set){
+  const target = document.getElementById('otr-content');
+  const toc = document.getElementById('otr-toc');
+  target.innerHTML = '⏳ Đang render markdown...';
+  toc.innerHTML = '';
+  loadMarkedJs().then(()=>{
+    try{
+      // Configure marked to support GFM tables, task lists
+      const renderer = new window.marked.Renderer();
+      // Inject IDs for h2/h3 so TOC links work
+      const slugCounter = {};
+      function slugify(txt){
+        let s = txt.toLowerCase()
+          .replace(/[àáạảãâầấậẩẫăằắặẳẵ]/g,'a')
+          .replace(/[èéẹẻẽêềếệểễ]/g,'e')
+          .replace(/[ìíịỉĩ]/g,'i')
+          .replace(/[òóọỏõôồốộổỗơờớợởỡ]/g,'o')
+          .replace(/[ùúụủũưừứựửữ]/g,'u')
+          .replace(/[ỳýỵỷỹ]/g,'y')
+          .replace(/đ/g,'d')
+          .replace(/[^a-z0-9]+/g,'-')
+          .replace(/^-+|-+$/g,'')
+          .substring(0, 60);
+        if(!s) s = 'section';
+        const n = (slugCounter[s] = (slugCounter[s]||0) + 1);
+        return n>1 ? s+'-'+n : s;
+      }
+      renderer.heading = function(text, level){
+        if(level === 1 || level === 2 || level === 3){
+          const plain = String(text).replace(/<[^>]+>/g,'').trim();
+          const id = slugify(plain);
+          return `<h${level} id="${id}">${text}</h${level}>`;
+        }
+        return `<h${level}>${text}</h${level}>`;
+      };
+      const html = window.marked.parse(set.content_md, {gfm:true, breaks:false, renderer:renderer});
+      target.innerHTML = html;
+      // Build TOC from h2/h3
+      const headings = target.querySelectorAll('h2[id], h3[id]');
+      const items = [];
+      headings.forEach(h=>{
+        const id = h.id;
+        const text = h.textContent.replace(/\s*🔗\s*$/,'').trim();
+        const lvl = h.tagName.toLowerCase();
+        items.push(`<li><a href="#${id}" class="${lvl}" data-target="${id}" onclick="otrScrollTo(event,'${id}')">${escapeHtml(text)}</a></li>`);
+      });
+      toc.innerHTML = items.join('') || '<li style="padding:8px 16px;color:var(--muted);font-size:12px">(Không có mục lục)</li>';
+      // External links open in new tab
+      target.querySelectorAll('a').forEach(a=>{
+        const href = a.getAttribute('href') || '';
+        if(href.startsWith('http')) a.setAttribute('target','_blank');
+      });
+      // Scroll-spy
+      attachOtrScrollSpy(headings);
+    }catch(e){
+      target.innerHTML = `<pre style="white-space:pre-wrap;font-size:13px;color:var(--text);background:#f5f5f5;padding:18px;border-radius:8px">${escapeHtml(set.content_md)}</pre>`;
+    }
+  }).catch(()=>{
+    target.innerHTML = `<div style="font-size:13px;color:var(--muted);margin-bottom:10px">⚠️ Không tải được marked.js — hiển thị raw:</div><pre style="white-space:pre-wrap;font-size:13px;background:#fafafa;padding:14px;border-radius:6px;line-height:1.7">${escapeHtml(set.content_md)}</pre>`;
+  });
+}
+
+function otrScrollTo(e, id){
+  e.preventDefault();
+  const wrap = document.getElementById('otr-content-wrap');
+  const el = document.getElementById(id);
+  if(!el || !wrap) return;
+  wrap.scrollTo({top: el.offsetTop - 20, behavior:'smooth'});
+}
+
+function attachOtrScrollSpy(headings){
+  const wrap = document.getElementById('otr-content-wrap');
+  const toTop = document.getElementById('otr-totop');
+  if(!wrap || !headings.length) return;
+  wrap.onscroll = ()=>{
+    const top = wrap.scrollTop;
+    toTop.classList.toggle('show', top > 300);
+    // Find current heading
+    let current = null;
+    for(const h of headings){
+      if(h.offsetTop - 60 <= top) current = h;
+      else break;
+    }
+    document.querySelectorAll('#otr-toc a').forEach(a=>{
+      a.classList.toggle('active', current && a.dataset.target === current.id);
+    });
+  };
+  wrap.onscroll();
+}
+
+function otrCopyLink(){
+  // Generate a copy of the set's title with deep link (informational)
+  const set = (ONTAP_NHANH.sets||[]).find(s => s.id === otrCurrentSetId);
+  if(!set) return;
+  const text = `${set.title} (${set.code||''})`;
+  navigator.clipboard?.writeText(text).then(()=>{
+    const btn = event.target;
+    const old = btn.textContent;
+    btn.textContent = '✓ Đã chép';
+    setTimeout(()=>{btn.textContent = old;}, 1200);
+  });
+}
+
+function otrKeyHandler(e){
+  if(e.key === 'Escape'){ closeOntapReader(); return; }
+  const wrap = document.getElementById('otr-content-wrap');
+  if(!wrap) return;
+  if(e.key === 'ArrowDown' || e.key === 'PageDown' || e.key === ' '){
+    e.preventDefault();
+    wrap.scrollBy({top: e.key===' '? 500 : 80, behavior:'smooth'});
+  } else if(e.key === 'ArrowUp' || e.key === 'PageUp'){
+    e.preventDefault();
+    wrap.scrollBy({top: -80, behavior:'smooth'});
+  } else if(e.key === 'Home'){
+    e.preventDefault();
+    wrap.scrollTo({top:0, behavior:'smooth'});
+  } else if(e.key === 'End'){
+    e.preventDefault();
+    wrap.scrollTo({top:wrap.scrollHeight, behavior:'smooth'});
+  }
 }
 
 function otnKeyHandler(e){
