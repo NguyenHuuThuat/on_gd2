@@ -3,6 +3,55 @@
   "description": "Bộ câu trắc nghiệm xây từ phần 'Câu hỏi tự kiểm tra' trong 3 file ON_TAP cá nhân.",
   "sets": [
     {
+      "id": "ct02_2026",
+      "title": "CT 02/CT-NHNN 2026 — Đẩy mạnh CĐS & ATTT ngành NH 2026",
+      "code": "02/CT-NHNN",
+      "source_md": "ON_TAP_CT_02_2026_ATTT_NH.md",
+      "questions": [
+        {"q": "CT 02/CT-NHNN 2026 ban hành ngày nào?", "options": {"A": "22/12/2025", "B": "31/12/2025", "C": "09/01/2026", "D": "01/03/2026"}, "answer": "C", "explain": "Chỉ thị 02/CT-NHNN ban hành 09/01/2026."},
+        {"q": "Tinh thần cốt lõi của CT 02/CT-NHNN 2026?", "options": {"A": "Bảo vệ thụ động", "B": "Chuyển từ phòng vệ THỤ ĐỘNG sang CHỦ ĐỘNG phát hiện, xử lý sớm", "C": "Outsource toàn bộ ATTT", "D": "Tăng nhân sự ATTT"}, "answer": "B", "explain": "CT 02: Chuyển từ phòng vệ thụ động → tích cực chủ động phát hiện và xử lý sớm."},
+        {"q": "Tỷ lệ tối thiểu chi đầu tư CNTT dành cho bảo mật + bảo vệ DL?", "options": {"A": "5%", "B": "10%", "C": "15%", "D": "20%"}, "answer": "C", "explain": "CT 02: Tối thiểu 15% chi triển khai CNTT cho bảo mật, bảo vệ DL."},
+        {"q": "CT 02 triển khai Nghị quyết Đảng nào?", "options": {"A": "NQ 36-NQ/TW", "B": "NQ 52-NQ/TW", "C": "NQ 57-NQ/TW", "D": "NQ 99-NQ/TW"}, "answer": "C", "explain": "CT 02 triển khai NQ 57-NQ/TW + Chiến lược CĐS-DL NH + Đề án 06."},
+        {"q": "CT 02 tích hợp với Đề án nào?", "options": {"A": "Đề án 30", "B": "Đề án 06 (CSDL dân cư + VNeID)", "C": "Đề án 749", "D": "Đề án 411"}, "answer": "B", "explain": "Tích hợp Đề án 06 — phát triển CSDL dân cư + định danh điện tử."},
+        {"q": "Mô hình tài chính mới được CT 02 khuyến khích?", "options": {"A": "Chỉ ngân hàng truyền thống", "B": "BaaS + Open Banking + Embedded Finance", "C": "Chỉ thanh toán tiền mặt", "D": "Không khuyến khích đổi mới"}, "answer": "B", "explain": "CT 02 đẩy mạnh BaaS (Banking-as-a-Service), Open Banking, Embedded Finance."},
+        {"q": "Báo cáo NHNN về triển khai CT 02 trước ngày nào hằng năm?", "options": {"A": "01/12", "B": "15/12", "C": "31/12", "D": "15/01 năm sau"}, "answer": "B", "explain": "Báo cáo NHNN trước 15/12 hằng năm."}
+      ]
+    },
+    {
+      "id": "qd3580_2025",
+      "title": "QĐ 3580/QĐ-NHNN — Chiến lược Dữ liệu ngành NH 2030",
+      "code": "3580/QĐ-NHNN",
+      "source_md": "ON_TAP_QD_3580_2025_CL_DL_NH.md",
+      "questions": [
+        {"q": "QĐ 3580/QĐ-NHNN ban hành ngày nào?", "options": {"A": "01/01/2025", "B": "03/11/2025", "C": "31/12/2025", "D": "01/03/2026"}, "answer": "B", "explain": "QĐ 3580 ban hành 03/11/2025 (cùng ngày QĐ 3579)."},
+        {"q": "QĐ 3580 đi cặp với Quyết định nào?", "options": {"A": "QĐ 749/QĐ-TTg", "B": "QĐ 3579/QĐ-NHNN (Chiến lược CĐS NH 2030)", "C": "QĐ 06/QĐ-TTg", "D": "QĐ 2439/QĐ-TTg"}, "answer": "B", "explain": "QĐ 3580 (DL) và QĐ 3579 (CĐS) đi cặp với nhau, ban hành cùng ngày."},
+        {"q": "Có bao nhiêu quan điểm cốt lõi trong QĐ 3580?", "options": {"A": "3 quan điểm", "B": "5 quan điểm", "C": "6 quan điểm", "D": "8 quan điểm"}, "answer": "C", "explain": "6 quan điểm cốt lõi."},
+        {"q": "Quan điểm số 5 của QĐ 3580 nói về gì?", "options": {"A": "DL phải mở 100%", "B": "Phát triển DL đi đôi với ATTT, ANM, BVDLCN", "C": "Tất cả DL phải ở nước ngoài", "D": "Chỉ DL tài chính được bảo vệ"}, "answer": "B", "explain": "Quan điểm 5: DL + ATTT + ANM + BVDLCN ĐI ĐÔI."},
+        {"q": "Theo QĐ 3580, DL được xem là gì?", "options": {"A": "Phụ phẩm hoạt động", "B": "TÀI SẢN CHIẾN LƯỢC", "C": "Chi phí phát sinh", "D": "Không quan trọng"}, "answer": "B", "explain": "Quan điểm 2: Dữ liệu là tài sản chiến lược / tài nguyên số."},
+        {"q": "Nguyên tắc kết nối CSDL NH với CSDL khác?", "options": {"A": "Mỗi cơ quan tự thu thập", "B": "Thu thập 1 lần, dùng nhiều lần (qua Đề án 06 + CSDL DN)", "C": "Không kết nối", "D": "Chỉ kết nối nội bộ"}, "answer": "B", "explain": "Quan điểm 4: 'Thu thập 1 lần, dùng nhiều lần' — liên thông Đề án 06 + CSDL DN."}
+      ]
+    },
+    {
+      "id": "luat14_2022",
+      "title": "Luật 14/2022/QH15 — Phòng, chống rửa tiền",
+      "code": "14/2022/QH15",
+      "source_md": "ON_TAP_LUAT_14_2022_PCRT.md",
+      "questions": [
+        {"q": "Luật PCRT 14/2022 hiệu lực từ khi nào?", "options": {"A": "15/11/2022", "B": "01/01/2023", "C": "01/03/2023", "D": "01/07/2023"}, "answer": "C", "explain": "Luật PCRT 14/2022 hiệu lực 01/03/2023."},
+        {"q": "Luật PCRT 14/2022 thay thế Luật nào?", "options": {"A": "Luật PCRT 2010", "B": "Luật PCRT 2012", "C": "Luật TCTD 2010", "D": "Luật ANM 2018"}, "answer": "B", "explain": "Thay thế Luật PCRT 2012."},
+        {"q": "Lưu hồ sơ PCRT tối thiểu bao lâu?", "options": {"A": "3 năm", "B": "5 năm", "C": "7 năm", "D": "10 năm"}, "answer": "B", "explain": "Đ.38: Lưu ít nhất 5 năm kể từ ngày đóng TK hoặc GD cuối."},
+        {"q": "PEP là gì?", "options": {"A": "Cá nhân Việt Nam có thu nhập cao", "B": "Người NƯỚC NGOÀI giữ chức vụ cấp cao tại CQ/TC/TC quốc tế — phải EDD", "C": "Khách hàng VIP", "D": "Người chống tham nhũng"}, "answer": "B", "explain": "PEP = Politically Exposed Person, người nước ngoài giữ chức vụ cao → bắt buộc EDD."},
+        {"q": "EDD viết tắt của gì?", "options": {"A": "Encrypted Data Diary", "B": "Enhanced Due Diligence (Đánh giá rủi ro tăng cường)", "C": "Electronic Data Delivery", "D": "External Data Detection"}, "answer": "B", "explain": "EDD = Enhanced Due Diligence — áp dụng với PEP + KH ở quốc gia rủi ro cao (theo FATF)."},
+        {"q": "Ngưỡng GD bằng TIỀN MẶT phải báo cáo PCRT (theo QĐ 11/2023)?", "options": {"A": "≥ 100 triệu VND/ngày", "B": "≥ 200 triệu VND/ngày", "C": "≥ 400 triệu VND/ngày", "D": "≥ 500 triệu VND/ngày"}, "answer": "C", "explain": "QĐ 11/2023/QĐ-TTg: ≥ 400 triệu VND/ngày phải báo cáo."},
+        {"q": "Ngưỡng CHUYỂN TIỀN ĐIỆN TỬ XUYÊN BIÊN GIỚI phải báo cáo?", "options": {"A": "≥ 100 triệu VND hoặc ≥ 500 USD", "B": "≥ 500 triệu VND hoặc ≥ 1.000 USD", "C": "≥ 1 tỷ VND hoặc ≥ 10.000 USD", "D": "Mọi khoản"}, "answer": "B", "explain": "QĐ 11/2023: ≥ 500 triệu VND hoặc ≥ 1.000 USD đối với chuyển tiền điện tử xuyên biên giới."},
+        {"q": "Báo cáo Giao dịch đáng ngờ (STR) gửi cho ai?", "options": {"A": "Bộ Tài chính", "B": "Tổng cục Thuế", "C": "Cục Phòng chống rửa tiền (NHNN)", "D": "Bộ Công an"}, "answer": "C", "explain": "STR gửi Cục Phòng chống rửa tiền thuộc NHNN."},
+        {"q": "Định nghĩa rửa tiền?", "options": {"A": "Đầu tư tiền mặt vào BĐS", "B": "Hành vi của TC/CN nhằm HỢP PHÁP HÓA NGUỒN GỐC tài sản có được do phạm tội", "C": "Gửi tiết kiệm dài hạn", "D": "Chuyển tiền cho người thân"}, "answer": "B", "explain": "Đ.3.1: Rửa tiền = hợp pháp hóa nguồn gốc tài sản từ phạm tội."},
+        {"q": "Đối tượng báo cáo PCRT KHÔNG bao gồm?", "options": {"A": "Ngân hàng + chứng khoán + bảo hiểm", "B": "Bất động sản + kim hoàn + casino", "C": "Kế toán + luật sư + thành lập DN", "D": "Quán cà phê + nhà hàng (KHÔNG thuộc)"}, "answer": "D", "explain": "Quán cà phê / nhà hàng KHÔNG thuộc đối tượng báo cáo PCRT. Các đối tượng: TCTD + TC tài chính + DNFFBPs (BĐS, kim hoàn, casino, kế toán, luật sư, dịch vụ thành lập DN)."},
+        {"q": "Luật PCRT 14/2022 có bao nhiêu chương, điều?", "options": {"A": "3 chương, 50 điều", "B": "4 chương, 66 điều", "C": "5 chương, 80 điều", "D": "8 chương, 100 điều"}, "answer": "B", "explain": "Luật PCRT có 4 chương, 66 Điều."},
+        {"q": "KYC viết tắt của gì?", "options": {"A": "Keep Your Customer", "B": "Know Your Customer (nhận biết khách hàng)", "C": "Keep Your Cash", "D": "Know Your Country"}, "answer": "B", "explain": "KYC = Know Your Customer — nhận biết khách hàng."}
+      ]
+    },
+    {
       "id": "nq57_2024",
       "title": "NQ 57-NQ/TW — Đột phá KHCN, ĐMST, CĐS quốc gia",
       "code": "57-NQ/TW",
