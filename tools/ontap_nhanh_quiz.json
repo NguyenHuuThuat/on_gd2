@@ -3,6 +3,44 @@
   "description": "Bộ câu trắc nghiệm xây từ phần 'Câu hỏi tự kiểm tra' trong 3 file ON_TAP cá nhân.",
   "sets": [
     {
+      "id": "qd06_2022",
+      "title": "QĐ 06/QĐ-TTg — Đề án 06 (CSDL dân cư + VNeID)",
+      "code": "06/QĐ-TTg",
+      "source_md": "ON_TAP_QD_06_2022_DE_AN_06.md",
+      "questions": [
+        {"q": "Đề án 06 (QĐ 06/QĐ-TTg) ban hành ngày nào?", "options": {"A": "06/01/2022", "B": "31/03/2022", "C": "03/06/2020", "D": "11/10/2021"}, "answer": "A", "explain": "Đề án 06 ban hành 06/01/2022."},
+        {"q": "Đề án 06 do cơ quan nào chủ trì?", "options": {"A": "Bộ KH&CN", "B": "Bộ Công an", "C": "Bộ TT&TT", "D": "Văn phòng Chính phủ"}, "answer": "B", "explain": "Bộ Công an chủ trì."},
+        {"q": "2 nền tảng cốt lõi của Đề án 06?", "options": {"A": "CSDL dân cư + VNeID", "B": "Cloud + AI", "C": "5G + IoT", "D": "Blockchain + Big Data"}, "answer": "A", "explain": "2 nền tảng: CSDL quốc gia về dân cư + VNeID."},
+        {"q": "VNeID có mấy mức tin cậy?", "options": {"A": "2 mức", "B": "3 mức (cơ bản/trung bình/cao)", "C": "4 mức", "D": "5 mức"}, "answer": "B", "explain": "VNeID có 3 mức: Cơ bản (không xác thực) - Trung bình (giấy tờ) - Cao (sinh trắc)."},
+        {"q": "Đề án 06 cung cấp bao nhiêu DVC thiết yếu online qua VNeID?", "options": {"A": "10 DVC", "B": "15 DVC", "C": "25 DVC", "D": "50 DVC"}, "answer": "C", "explain": "25 DVC thiết yếu online qua VNeID."}
+      ]
+    },
+    {
+      "id": "qd31_2021",
+      "title": "QĐ 31/2021/QĐ-TTg — Cổng Dịch vụ công Quốc gia",
+      "code": "31/2021/QĐ-TTg",
+      "source_md": "ON_TAP_QD_31_2021_DVCQG.md",
+      "questions": [
+        {"q": "QĐ 31/2021 hiệu lực ngày nào?", "options": {"A": "11/10/2021", "B": "09/12/2021", "C": "01/01/2022", "D": "06/01/2022"}, "answer": "B", "explain": "QĐ 31/2021 ban hành 11/10/2021, hiệu lực 09/12/2021."},
+        {"q": "Tên miền Cổng DVCQG?", "options": {"A": "vneid.gov.vn", "B": "dichvucong.gov.vn", "C": "egov.gov.vn", "D": "chinhphu.gov.vn"}, "answer": "B", "explain": "Cổng DVCQG: dichvucong.gov.vn"},
+        {"q": "Cơ chế đăng nhập Cổng DVCQG?", "options": {"A": "OTP qua SMS", "B": "Single Sign-On (SSO) qua VNeID", "C": "Username + password", "D": "Chữ ký số"}, "answer": "B", "explain": "SSO thống nhất qua VNeID."},
+        {"q": "Cơ quan chủ trì Cổng DVCQG?", "options": {"A": "Bộ Công an", "B": "Bộ KH&CN", "C": "Văn phòng Chính phủ", "D": "NHNN"}, "answer": "C", "explain": "Văn phòng Chính phủ chủ trì."}
+      ]
+    },
+    {
+      "id": "qd11_2019",
+      "title": "QĐ 11/QĐ-HHNH — Bộ chuẩn mực đạo đức cán bộ NH",
+      "code": "11/QĐ-HHNH",
+      "source_md": "ON_TAP_QD_11_2019_DAO_DUC_NH.md",
+      "questions": [
+        {"q": "QĐ 11/QĐ-HHNH ban hành ngày nào?", "options": {"A": "25/02/2019", "B": "01/01/2020", "C": "03/06/2020", "D": "06/01/2022"}, "answer": "A", "explain": "QĐ 11/QĐ-HHNH ban hành 25/02/2019."},
+        {"q": "QĐ 11 do cơ quan nào ban hành?", "options": {"A": "NHNN", "B": "Hiệp hội Ngân hàng VN (VNBA)", "C": "Bộ Tài chính", "D": "Chính phủ"}, "answer": "B", "explain": "Do VNBA (Hiệp hội NH VN) ban hành."},
+        {"q": "QĐ 11 có bao nhiêu chuẩn mực đạo đức?", "options": {"A": "3", "B": "5", "C": "6", "D": "10"}, "answer": "C", "explain": "6 chuẩn mực: Tuân thủ - Cẩn trọng - Chính trực - Tận tâm - Sáng tạo/Thích ứng - Ý thức ATTT."},
+        {"q": "Chuẩn mực đạo đức số 6 nói về gì?", "options": {"A": "Tuân thủ pháp luật", "B": "Ý thức ATTT — bảo vệ DL là trách nhiệm cá nhân hằng ngày", "C": "Tận tâm với công việc", "D": "Chính trực, trung thực"}, "answer": "B", "explain": "Chuẩn mực 6: Ý thức ATTT, bảo vệ DL hằng ngày."},
+        {"q": "Có bao nhiêu quy tắc ứng xử?", "options": {"A": "1 quy tắc", "B": "2 quy tắc (nội bộ + bên ngoài)", "C": "5 quy tắc", "D": "10 quy tắc"}, "answer": "B", "explain": "2 quy tắc: ứng xử nội bộ + ứng xử bên ngoài (KH, đối tác)."}
+      ]
+    },
+    {
       "id": "qd749_2020",
       "title": "QĐ 749/QĐ-TTg — Chương trình CĐS Quốc gia 2025-2030",
       "code": "749/QĐ-TTg",
