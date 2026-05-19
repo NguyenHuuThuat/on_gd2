@@ -3,6 +3,63 @@
   "description": "Bộ câu trắc nghiệm xây từ phần 'Câu hỏi tự kiểm tra' trong 3 file ON_TAP cá nhân.",
   "sets": [
     {
+      "id": "luat71_2025",
+      "title": "Luật 71/2025/QH15 — Công nghiệp công nghệ số",
+      "code": "71/2025/QH15",
+      "source_md": "ON_TAP_LUAT_71_2025_CNCNS.md",
+      "questions": [
+        {"q": "Luật Công nghiệp công nghệ số 71/2025 hiệu lực từ khi nào?", "options": {"A": "01/07/2025", "B": "01/01/2026", "C": "01/07/2026", "D": "01/01/2027"}, "answer": "B", "explain": "Luật CNCNS 71/2025 hiệu lực 01/01/2026 (một số nội dung từ 01/07/2025)."},
+        {"q": "Luật nào LẦN ĐẦU định nghĩa pháp lý 'tài sản số' tại VN?", "options": {"A": "Luật Dữ liệu 60/2024", "B": "Luật CNCNS 71/2025", "C": "Luật BVDLCN 91/2025", "D": "Luật CĐS 148/2025"}, "answer": "B", "explain": "Đ.46-47 Luật CNCNS: Lần đầu định nghĩa pháp lý 'tài sản số'."},
+        {"q": "Có mấy loại tài sản số theo Luật CNCNS?", "options": {"A": "2 loại", "B": "3 loại: tài sản ảo / tài sản mã hóa / tài sản số khác", "C": "4 loại", "D": "5 loại"}, "answer": "B", "explain": "Đ.47: 3 loại — tài sản ảo, tài sản mã hóa, tài sản số khác."},
+        {"q": "Chuyên gia CN công nghệ số được miễn thuế TNCN bao lâu?", "options": {"A": "2 năm", "B": "3 năm", "C": "5 năm", "D": "10 năm"}, "answer": "C", "explain": "Đ.34.7: Miễn thuế TNCN 5 năm cho chuyên gia CNCNS."},
+        {"q": "CNTT có quan hệ thế nào với Công nghệ số theo Luật CNCNS?", "options": {"A": "CNTT là Công nghệ số", "B": "CNTT là BỘ PHẬN của Công nghệ số", "C": "CNTT và CNS không liên quan", "D": "CNTT bao gồm CNS"}, "answer": "B", "explain": "CNTT là bộ phận của Công nghệ số (dẫn chiếu giữa Luật CNCNS 71/2025 và Luật CĐS 148/2025)."},
+        {"q": "Luật CNCNS cụ thể hóa Nghị quyết nào?", "options": {"A": "NQ 57-NQ/TW", "B": "NQ 71/NQ-CP", "C": "NQ 99/NQ-CP", "D": "NQ 36-NQ/TW"}, "answer": "A", "explain": "Luật CNCNS cụ thể hóa NQ 57-NQ/TW (2024)."},
+        {"q": "Định nghĩa 'Công nghệ số' theo Luật CNCNS?", "options": {"A": "Chỉ là Internet", "B": "Tập hợp phương pháp KH + quy trình CN + công cụ để sản xuất, truyền DL số, SỐ HÓA THẾ GIỚI THỰC", "C": "Phần mềm máy tính", "D": "Mạng 5G"}, "answer": "B", "explain": "Đ.3.1: Công nghệ số = phương pháp KH + quy trình CN + công cụ để số hóa thế giới thực."},
+        {"q": "Doanh nghiệp công nghệ số là DN làm gì?", "options": {"A": "DN bán phần mềm", "B": "DN sản xuất sản phẩm/cung cấp DV công nghệ số", "C": "DN dùng máy tính", "D": "DN cung cấp Internet"}, "answer": "B", "explain": "Đ.3.5: DN công nghệ số = DN sản xuất sản phẩm/cung cấp DV công nghệ số."}
+      ]
+    },
+    {
+      "id": "tt18_2024",
+      "title": "TT 18/2024/TT-NHNN — Hoạt động thẻ ngân hàng",
+      "code": "18/2024/TT-NHNN",
+      "source_md": "ON_TAP_TT_18_2024_THE_NH.md",
+      "questions": [
+        {"q": "TT 18/2024 thay thế Thông tư nào?", "options": {"A": "TT 23/2014", "B": "TT 19/2016", "C": "TT 35/2018", "D": "TT 09/2020"}, "answer": "B", "explain": "TT 18/2024 thay thế TT 19/2016/TT-NHNN."},
+        {"q": "Có mấy loại thẻ ngân hàng chính theo TT 18/2024?", "options": {"A": "2 loại", "B": "3 loại: ghi nợ / tín dụng / trả trước", "C": "4 loại", "D": "5 loại"}, "answer": "B", "explain": "Đ.3: 3 loại — thẻ ghi nợ (debit), thẻ tín dụng (credit), thẻ trả trước (prepaid)."},
+        {"q": "Thẻ trả trước ĐỊNH DANH có hiệu lực tối đa bao lâu?", "options": {"A": "1 năm", "B": "2 năm", "C": "3 năm", "D": "5 năm"}, "answer": "C", "explain": "Đ.10.3.b: Thẻ trả trước định danh hiệu lực không quá 3 năm."},
+        {"q": "Hạn mức rút tiền mặt thẻ tín dụng tối đa/tháng (theo BIN)?", "options": {"A": "50 triệu", "B": "100 triệu", "C": "200 triệu", "D": "500 triệu"}, "answer": "B", "explain": "Đ.13.3: Hạn mức rút tiền mặt thẻ tín dụng tối đa 100 triệu/tháng theo BIN."},
+        {"q": "Hạn mức tín dụng cá nhân CÓ tài sản bảo đảm tối đa?", "options": {"A": "500 triệu", "B": "1 tỷ", "C": "2 tỷ", "D": "5 tỷ"}, "answer": "B", "explain": "Đ.14.1.h: Hạn mức tín dụng cá nhân có TSBĐ tối đa 1 tỷ đồng."},
+        {"q": "Hạn mức tín dụng cá nhân KHÔNG có TSBĐ tối đa?", "options": {"A": "100 triệu", "B": "300 triệu", "C": "500 triệu", "D": "1 tỷ"}, "answer": "C", "explain": "Đ.14.1.h: Hạn mức tín dụng cá nhân không có TSBĐ tối đa 500 triệu đồng."},
+        {"q": "Chủ thẻ CHÍNH phải từ bao nhiêu tuổi?", "options": {"A": "Đủ 15 tuổi", "B": "Đủ 18 tuổi (15-18 cần đại diện hợp pháp)", "C": "Đủ 21 tuổi", "D": "Không giới hạn"}, "answer": "B", "explain": "Đ.15.1: Chủ thẻ chính từ đủ 18 tuổi (người 15-18 tuổi có thể là chủ thẻ chính hợp pháp)."},
+        {"q": "Chủ thẻ PHỤ phải từ bao nhiêu tuổi?", "options": {"A": "Đủ 12 tuổi", "B": "Đủ 15 tuổi", "C": "Đủ 18 tuổi", "D": "Không quy định"}, "answer": "B", "explain": "Chủ thẻ phụ từ đủ 15 tuổi (cần đồng ý chủ thẻ chính + người đại diện nếu < 18)."},
+        {"q": "3DS (3D Secure) được dùng cho mục đích gì?", "options": {"A": "Mã hóa CSDL", "B": "Xác thực giao dịch online (chống gian lận)", "C": "Truy cập Internet Banking", "D": "Tạo tài khoản"}, "answer": "B", "explain": "3DS bắt buộc cho GD online — xác thực bổ sung để chống gian lận."},
+        {"q": "Chuẩn thẻ chip nội địa của NHNN?", "options": {"A": "ISO 30107", "B": "TCCS 01:2018 + TCCS 02:2018", "C": "PCI DSS", "D": "EMV cấp 1"}, "answer": "B", "explain": "Bộ Tiêu chuẩn cơ sở thẻ chip nội địa NHNN: TCCS 01:2018 + TCCS 02:2018."}
+      ]
+    },
+    {
+      "id": "tt64_2024",
+      "title": "TT 64/2024/TT-NHNN — Open API ngành Ngân hàng",
+      "code": "64/2024/TT-NHNN",
+      "source_md": "ON_TAP_TT_64_2024_OPEN_API.md",
+      "questions": [
+        {"q": "TT 64/2024 quy định về gì?", "options": {"A": "An toàn DV trực tuyến", "B": "Open API ngành Ngân hàng (Open Banking)", "C": "Tài khoản thanh toán", "D": "Thẻ ngân hàng"}, "answer": "B", "explain": "TT 64/2024 = Open Banking đầu tiên của VN."},
+        {"q": "TT 64/2024 hiệu lực từ khi nào?", "options": {"A": "01/01/2025", "B": "01/03/2025", "C": "01/07/2025", "D": "01/01/2026"}, "answer": "B", "explain": "TT 64/2024 hiệu lực 01/03/2025."},
+        {"q": "Thời điểm tuân thủ đầy đủ TT 64/2024?", "options": {"A": "01/03/2025", "B": "01/07/2025", "C": "01/03/2026", "D": "01/03/2027"}, "answer": "D", "explain": "Tuân thủ đầy đủ TT 64 vào 01/03/2027."},
+        {"q": "Có mấy nhóm API chính theo TT 64?", "options": {"A": "2 nhóm", "B": "3 nhóm", "C": "4 nhóm: INF / AIS / PIS / EWLTS", "D": "5 nhóm"}, "answer": "C", "explain": "4 nhóm: INF (Information) + AIS (Account Info) + PIS (Payment Initiation) + EWLTS (E-Wallet Top-up/Withdraw)."},
+        {"q": "Hệ thống Open API phải đạt HTTT tối thiểu cấp độ nào?", "options": {"A": "Cấp 2", "B": "Cấp 3 trở lên", "C": "Cấp 4 trở lên", "D": "Cấp 5"}, "answer": "B", "explain": "Đ.7.2: HTTT Open API tối thiểu cấp 3."},
+        {"q": "Sự đồng ý chia sẻ dữ liệu KH có hiệu lực tối đa bao lâu?", "options": {"A": "30 ngày", "B": "90 ngày", "C": "Không quá 180 ngày", "D": "1 năm"}, "answer": "C", "explain": "Đ.10.6: Sự đồng ý chia sẻ DL KH không quá 180 ngày."},
+        {"q": "Chuẩn API bắt buộc theo TT 64?", "options": {"A": "SOAP", "B": "REST", "C": "GraphQL", "D": "RPC"}, "answer": "B", "explain": "REST là chuẩn API bắt buộc."},
+        {"q": "Chuẩn xác thực (authentication) bắt buộc theo TT 64?", "options": {"A": "Basic Auth", "B": "OAuth 2.0 + PKCE", "C": "API Key", "D": "Cookie-based"}, "answer": "B", "explain": "OAuth 2.0 (RFC 6749) + PKCE (RFC 7636) cho mobile app."},
+        {"q": "TLS tối thiểu theo TT 64?", "options": {"A": "TLS v1.0", "B": "TLS v1.1", "C": "TLS v1.2 trở lên", "D": "TLS v1.3"}, "answer": "C", "explain": "PL02 TT 64: TLS v1.2 trở lên + HTTPS bắt buộc."},
+        {"q": "Khóa RSA tối thiểu theo TT 64?", "options": {"A": "1024 bit", "B": "2048 bit", "C": "4096 bit", "D": "256 bit"}, "answer": "B", "explain": "RSA 2048 bit hoặc ECDSA 256 bit."},
+        {"q": "Hiệu lực Authorization Code?", "options": {"A": "60 giây", "B": "180 giây", "C": "300 giây", "D": "3600 giây"}, "answer": "B", "explain": "Authorization Code hiệu lực 180 giây."},
+        {"q": "Hiệu lực Access Token PIS (Payment Initiation Service)?", "options": {"A": "60 giây", "B": "180 giây", "C": "300 giây (5 phút)", "D": "3600 giây"}, "answer": "C", "explain": "Access Token PIS hiệu lực 300 giây (PIS nhạy cảm hơn AIS)."},
+        {"q": "Hiệu lực Access Token AIS (Account Information Service)?", "options": {"A": "300 giây", "B": "1800 giây", "C": "3600 giây (1 giờ)", "D": "86400 giây"}, "answer": "C", "explain": "Access Token AIS hiệu lực 3600 giây (1 giờ)."},
+        {"q": "TPP-ID sử dụng gì để định danh?", "options": {"A": "Mã số doanh nghiệp", "B": "Mã số thuế hợp lệ", "C": "Mã API key", "D": "UUID"}, "answer": "B", "explain": "TPP-ID sử dụng mã số thuế hợp lệ."},
+        {"q": "HTTT Open API phải đạt 1 trong 2 chuẩn nào?", "options": {"A": "ISO 9001 hoặc ISO 14001", "B": "ISO 27001:2022 hoặc TCVN 11930:2017", "C": "ISO 30107 hoặc PCI DSS", "D": "GDPR hoặc CCPA"}, "answer": "B", "explain": "HTTT Open API phải đạt ISO 27001:2022 hoặc TCVN 11930:2017."}
+      ]
+    },
+    {
       "id": "luat134_2025",
       "title": "Luật 134/2025/QH15 — Trí tuệ nhân tạo (AI)",
       "code": "134/2025/QH15",
