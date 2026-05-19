@@ -3,6 +3,42 @@
   "description": "Bộ câu trắc nghiệm xây từ phần 'Câu hỏi tự kiểm tra' trong 3 file ON_TAP cá nhân.",
   "sets": [
     {
+      "id": "qd1789_2005",
+      "title": "QĐ 1789/2005/QĐ-NHNN — Chế độ chứng từ kế toán NH",
+      "code": "1789/2005/QĐ-NHNN",
+      "source_md": "ON_TAP_QD_1789_2005_KE_TOAN.md",
+      "questions": [
+        {"q": "QĐ 1789/2005 ban hành ngày nào?", "options": {"A": "12/12/2005", "B": "08/06/2010", "C": "25/02/2019", "D": "06/01/2022"}, "answer": "A", "explain": "QĐ 1789/2005/QĐ-NHNN ban hành 12/12/2005."},
+        {"q": "QĐ 1789 quy định về gì?", "options": {"A": "Mở TKTT", "B": "Chế độ chứng từ kế toán Ngân hàng", "C": "An toàn DV trực tuyến", "D": "Tài khoản Tiền di động"}, "answer": "B", "explain": "QĐ 1789 = chế độ chứng từ kế toán NH."},
+        {"q": "Các loại chứng từ kế toán theo QĐ 1789?", "options": {"A": "Chỉ giấy", "B": "Phiếu + séc + chứng từ điện tử", "C": "Chỉ điện tử", "D": "Chỉ chứng từ gốc"}, "answer": "B", "explain": "Phiếu + séc + chứng từ điện tử."}
+      ]
+    },
+    {
+      "id": "nd63_2010",
+      "title": "NĐ 63/2010/NĐ-CP — Kiểm soát thủ tục hành chính",
+      "code": "63/2010/NĐ-CP",
+      "source_md": "ON_TAP_ND_63_2010_KS_TTHC.md",
+      "questions": [
+        {"q": "NĐ 63/2010 ban hành ngày nào?", "options": {"A": "08/06/2010", "B": "11/10/2021", "C": "06/01/2022", "D": "31/03/2022"}, "answer": "A", "explain": "NĐ 63/2010/NĐ-CP ban hành 08/06/2010."},
+        {"q": "NĐ 63/2010 quy định về gì?", "options": {"A": "Mở tài khoản NH", "B": "Kiểm soát thủ tục hành chính", "C": "An ninh mạng", "D": "Bảo vệ DLCN"}, "answer": "B", "explain": "NĐ 63/2010 = kiểm soát thủ tục hành chính (TTHC)."},
+        {"q": "NĐ 63/2010 là cơ sở pháp lý cho gì?", "options": {"A": "VNeID", "B": "Cổng DVCQG (dichvucong.gov.vn)", "C": "Trung tâm DL QG", "D": "CSDL dân cư"}, "answer": "B", "explain": "NĐ 63/2010 là nền tảng pháp lý cho Cổng DVCQG."},
+        {"q": "Mô hình DV công được hỗ trợ bởi NĐ 63/2010?", "options": {"A": "Tự phục vụ", "B": "Một cửa + một cửa liên thông", "C": "Đa cấp", "D": "Phân tán"}, "answer": "B", "explain": "Mô hình một cửa + một cửa liên thông."}
+      ]
+    },
+    {
+      "id": "qd1938_2025",
+      "title": "QĐ 1938/QĐ-NHNN — Phong trào Bình dân học vụ số",
+      "code": "1938/QĐ-NHNN",
+      "source_md": "ON_TAP_QD_1938_2025_BDHV_SO.md",
+      "questions": [
+        {"q": "QĐ 1938 ban hành ngày nào?", "options": {"A": "21/03/2025", "B": "28/04/2025", "C": "03/11/2025", "D": "12/12/2025"}, "answer": "B", "explain": "QĐ 1938/QĐ-NHNN ban hành 28/04/2025."},
+        {"q": "Tên phong trào?", "options": {"A": "Đào tạo kỹ năng số", "B": "Bình dân học vụ số", "C": "Phổ cập số", "D": "Kỹ năng số toàn dân"}, "answer": "B", "explain": "Phong trào 'Bình dân học vụ số'."},
+        {"q": "Tên cổng học của phong trào?", "options": {"A": "binhdanhocvuso.gov.vn", "B": "dichvucong.gov.vn", "C": "vneid.gov.vn", "D": "elearning.gov.vn"}, "answer": "A", "explain": "Cổng học: binhdanhocvuso.gov.vn"},
+        {"q": "Tỷ lệ cán bộ ngành NH tham gia phong trào?", "options": {"A": "50%", "B": "80%", "C": "95%", "D": "100%"}, "answer": "D", "explain": "100% cán bộ ngành NH (NHNN + TCTD + công ty TC + cơ sở GD NH)."},
+        {"q": "QĐ 1938 triển khai Kế hoạch nào?", "options": {"A": "01-KH/BCĐTW (21/03/2025)", "B": "QĐ 749/QĐ-TTg", "C": "NQ 57-NQ/TW", "D": "QĐ 06/QĐ-TTg"}, "answer": "A", "explain": "Triển khai Kế hoạch 01-KH/BCĐTW (21/03/2025) trong ngành NH."}
+      ]
+    },
+    {
       "id": "qd06_2022",
       "title": "QĐ 06/QĐ-TTg — Đề án 06 (CSDL dân cư + VNeID)",
       "code": "06/QĐ-TTg",
