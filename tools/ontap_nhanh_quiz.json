@@ -3,6 +3,41 @@
   "description": "Bộ câu trắc nghiệm xây từ phần 'Câu hỏi tự kiểm tra' trong 3 file ON_TAP cá nhân.",
   "sets": [
     {
+      "id": "nd262_2025",
+      "title": "NĐ 262/2025/NĐ-CP — Hướng dẫn Luật KHCN ĐMST (thông tin, thống kê)",
+      "code": "262/2025/NĐ-CP",
+      "source_md": "ON_TAP_ND_262_2025_KHCN_TT.md",
+      "questions": [
+        {"q": "NĐ 262/2025 hướng dẫn Luật nào?", "options": {"A": "Luật DL 60/2024", "B": "Luật KH-CN-ĐMST 2025", "C": "Luật BVDLCN 91/2025", "D": "Luật CĐS 148/2025"}, "answer": "B", "explain": "NĐ 262/2025 hướng dẫn Luật KH-CN-ĐMST về thông tin, thống kê, CĐS."},
+        {"q": "NĐ 262/2025 ban hành ngày nào?", "options": {"A": "01/01/2025", "B": "11/10/2025", "C": "31/12/2025", "D": "01/03/2026"}, "answer": "B", "explain": "NĐ 262/2025/NĐ-CP ban hành 11/10/2025."},
+        {"q": "Cặp NĐ hướng dẫn Luật KH-CN-ĐMST?", "options": {"A": "NĐ 262 + NĐ 265", "B": "NĐ 53 + NĐ 356", "C": "NĐ 94 + NĐ 26", "D": "NĐ 52 + NĐ 13"}, "answer": "A", "explain": "NĐ 262/2025 (thông tin, thống kê) + NĐ 265/2025 (tài chính, đầu tư) — cùng hướng dẫn Luật KH-CN-ĐMST."}
+      ]
+    },
+    {
+      "id": "tt25_2025",
+      "title": "TT 25/2025/TT-NHNN — Sửa đổi TT 17/2024 (TKTT)",
+      "code": "25/2025/TT-NHNN",
+      "source_md": "ON_TAP_TT_25_2025_SUA_TT_17.md",
+      "questions": [
+        {"q": "TT 25/2025 sửa TT nào?", "options": {"A": "TT 15/2024", "B": "TT 17/2024", "C": "TT 50/2024", "D": "TT 64/2024"}, "answer": "B", "explain": "TT 25/2025/TT-NHNN sửa đổi TT 17/2024/TT-NHNN về TKTT."},
+        {"q": "TT 25/2025 ban hành ngày nào?", "options": {"A": "01/01/2025", "B": "30/06/2025", "C": "31/08/2025", "D": "01/01/2026"}, "answer": "C", "explain": "TT 25/2025 ban hành 31/08/2025."},
+        {"q": "Ngưỡng GD online bắt buộc khớp sinh trắc học theo TT 25?", "options": {"A": "≥ 1 triệu/lần", "B": "≥ 5 triệu/lần", "C": "≥ 10 triệu/lần HOẶC ≥ 20 triệu/ngày", "D": "Tất cả GD"}, "answer": "C", "explain": "TT 25/2025: GD online ≥ 10 triệu/lần HOẶC tích lũy ≥ 20 triệu/ngày phải khớp sinh trắc (theo QĐ 2345)."},
+        {"q": "Quy định sinh trắc học của TT 25 dựa theo QĐ nào?", "options": {"A": "QĐ 2345/QĐ-NHNN", "B": "QĐ 749/QĐ-TTg", "C": "QĐ 20/2025/QĐ-TTg", "D": "QĐ 3579/QĐ-NHNN"}, "answer": "A", "explain": "QĐ 2345/QĐ-NHNN (01/07/2024) quy định ngưỡng sinh trắc cho GD online."}
+      ]
+    },
+    {
+      "id": "qd2439_2025",
+      "title": "QĐ 2439/QĐ-TTg — Khung Kiến trúc Dữ liệu Quốc gia",
+      "code": "2439/QĐ-TTg",
+      "source_md": "ON_TAP_QD_2439_2025_KT_DL_QG.md",
+      "questions": [
+        {"q": "QĐ 2439/QĐ-TTg ban hành ngày nào?", "options": {"A": "01/01/2025", "B": "04/11/2025", "C": "31/12/2025", "D": "01/03/2026"}, "answer": "B", "explain": "QĐ 2439/QĐ-TTg ban hành 04/11/2025."},
+        {"q": "Khung Kiến trúc DL QG có mấy lớp?", "options": {"A": "3 lớp", "B": "4 lớp", "C": "5 lớp", "D": "7 lớp"}, "answer": "C", "explain": "5 lớp: Source → Integration → Standardized → Services → Applications."},
+        {"q": "Ai chủ trì duy trì + cập nhật Khung KT DL QG?", "options": {"A": "Bộ KH&CN", "B": "Bộ Công an", "C": "Bộ TT&TT", "D": "Văn phòng Chính phủ"}, "answer": "B", "explain": "Bộ Công an chủ trì duy trì + cập nhật."},
+        {"q": "QĐ 2439 phục vụ Luật nào?", "options": {"A": "Luật BVDLCN 91/2025", "B": "Luật DL 60/2024", "C": "Luật CĐS 148/2025", "D": "Luật ANM 24/2018"}, "answer": "B", "explain": "QĐ 2439 cụ thể hóa Luật DL 60/2024."}
+      ]
+    },
+    {
       "id": "luat32_2024",
       "title": "Luật 32/2024/QH15 — Các tổ chức tín dụng",
       "code": "32/2024/QH15",
