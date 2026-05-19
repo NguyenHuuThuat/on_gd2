@@ -3,6 +3,72 @@
   "description": "Bộ câu trắc nghiệm xây từ phần 'Câu hỏi tự kiểm tra' trong 3 file ON_TAP cá nhân.",
   "sets": [
     {
+      "id": "tt17_2024",
+      "title": "TT 17/2024/TT-NHNN — Tài khoản thanh toán",
+      "code": "17/2024/TT-NHNN",
+      "source_md": "ON_TAP_TT_17_2024_TKTT.md",
+      "questions": [
+        {"q": "TT 17/2024 hiệu lực chung từ ngày nào?", "options": {"A": "01/07/2024", "B": "01/10/2024", "C": "01/01/2025", "D": "01/07/2025"}, "answer": "B", "explain": "TT 17/2024 có hiệu lực chung từ 01/10/2024."},
+        {"q": "Quy định đối chiếu sinh trắc học khi GD áp dụng cho KH CÁ NHÂN từ khi nào?", "options": {"A": "01/10/2024", "B": "01/01/2025", "C": "01/07/2025", "D": "01/01/2026"}, "answer": "B", "explain": "Đ.23 K.3: sinh trắc cho KH cá nhân áp dụng từ 01/01/2025."},
+        {"q": "Quy định đối chiếu sinh trắc học khi GD áp dụng cho KH TỔ CHỨC từ khi nào?", "options": {"A": "01/10/2024", "B": "01/01/2025", "C": "01/07/2025", "D": "01/01/2026"}, "answer": "C", "explain": "Sinh trắc cho KH tổ chức áp dụng từ 01/07/2025."},
+        {"q": "TT 17/2024 thay thế Thông tư nào?", "options": {"A": "TT 23/2014 + TT 32/2016", "B": "TT 35/2016 + TT 35/2018", "C": "TT 18/2018", "D": "TT 50/2024"}, "answer": "A", "explain": "TT 17/2024 thay thế TT 23/2014/TT-NHNN + TT 32/2016/TT-NHNN."},
+        {"q": "Thông tư nào sửa đổi TT 17/2024?", "options": {"A": "TT 30/2025", "B": "TT 64/2024", "C": "TT 25/2025", "D": "TT 77/2025"}, "answer": "C", "explain": "TT 25/2025/TT-NHNN (31/08/2025) sửa TT 17/2024."},
+        {"q": "Khi mở TKTT trực tuyến (eKYC), đối chiếu sinh trắc học với những nguồn nào?", "options": {"A": "Chỉ CCCD chip", "B": "Chỉ VNeID mức 2", "C": "CCCD chip / VNeID mức 2 / CSDL dân cư (3 nguồn)", "D": "Chỉ CSDL dân cư"}, "answer": "C", "explain": "Đ.17 K.5: 3 nguồn — CCCD chip / TK định danh điện tử mức 2 / CSDL quốc gia về dân cư."},
+        {"q": "TKTT chung là gì?", "options": {"A": "TK có 1 chủ", "B": "TK có 2 cá nhân trở lên cùng đứng tên chủ TK", "C": "TK của công ty", "D": "TK doanh nghiệp nhà nước"}, "answer": "B", "explain": "TKTT chung = 2 cá nhân trở lên cùng đứng tên chủ TKTT."},
+        {"q": "GD trên TKTT chung cần ai đồng ý?", "options": {"A": "Chỉ 1 chủ TK là đủ", "B": "Tất cả chủ TKTT (hoặc theo thỏa thuận)", "C": "Đa số chủ TK", "D": "Chủ TK đầu tiên"}, "answer": "B", "explain": "Mọi GD trên TKTT chung phải có sự đồng ý của tất cả chủ TKTT (hoặc theo thỏa thuận trước)."},
+        {"q": "Người chưa thành niên dưới 15 tuổi mở TKTT thế nào?", "options": {"A": "Tự mình mở", "B": "Không được mở", "C": "Người đại diện theo pháp luật mở thay", "D": "Cần 2 người làm chứng"}, "answer": "C", "explain": "Người < 15 tuổi: người đại diện theo PL mở thay."},
+        {"q": "Người từ 15 đến dưới 18 tuổi có được mở TKTT không?", "options": {"A": "Không, phải đủ 18", "B": "Có, được mở TKTT", "C": "Chỉ với sự đồng ý cha mẹ", "D": "Chỉ qua eKYC"}, "answer": "B", "explain": "Người từ đủ 15 đến chưa đủ 18 tuổi có thể mở TKTT."},
+        {"q": "eKYC là gì trong mở TKTT?", "options": {"A": "Mở TK trực tiếp tại quầy", "B": "Mở TKTT 100% trực tuyến qua phần mềm Mobile Banking/Internet Banking", "C": "Một loại OTP", "D": "Quy trình hỗ trợ KH"}, "answer": "B", "explain": "eKYC = mở TKTT trực tuyến qua phương tiện điện tử với đối chiếu sinh trắc học."},
+        {"q": "Một trong các lý do phong tỏa TKTT?", "options": {"A": "KH quên password", "B": "Có yêu cầu bằng văn bản của CQ có thẩm quyền", "C": "Số dư > 100 triệu", "D": "Mở TK quá lâu"}, "answer": "B", "explain": "Đ.11: Phong tỏa TKTT khi có yêu cầu bằng văn bản của CQ có thẩm quyền (1 trong 5 trường hợp)."}
+      ]
+    },
+    {
+      "id": "tt77_2025",
+      "title": "TT 77/2025/TT-NHNN — Sửa đổi TT 50/2024",
+      "code": "77/2025/TT-NHNN",
+      "source_md": "ON_TAP_TT_77_2025_SUA_TT_50.md",
+      "questions": [
+        {"q": "TT 77/2025 sửa đổi Thông tư nào?", "options": {"A": "TT 09/2020", "B": "TT 50/2024", "C": "TT 17/2024", "D": "TT 18/2024"}, "answer": "B", "explain": "TT 77/2025/TT-NHNN sửa đổi, bổ sung TT 50/2024/TT-NHNN."},
+        {"q": "TT 77/2025 có hiệu lực chung từ ngày nào?", "options": {"A": "31/12/2025", "B": "01/01/2026", "C": "01/03/2026", "D": "01/07/2026"}, "answer": "C", "explain": "Đ.12 K.1: TT 77/2025 hiệu lực từ 01/03/2026."},
+        {"q": "PAD (Presentation Attack Detection) theo TT 77 phải đạt chuẩn nào?", "options": {"A": "ISO 27001", "B": "ISO 30107 cấp độ 2 hoặc Liên minh FIDO công nhận", "C": "TCVN 11930:2017", "D": "PCI DSS Level 1"}, "answer": "B", "explain": "PAD đạt ISO/IEC 30107 cấp độ 2 (Level 2) hoặc tương đương, hoặc do Liên minh FIDO công nhận."},
+        {"q": "Mobile Banking có được hạ phiên bản (downgrade) khi cài lại không?", "options": {"A": "Có, người dùng tự quyết định", "B": "Có, nếu phiên bản cũ ổn định hơn", "C": "KHÔNG cho phép hạ phiên bản", "D": "Chỉ với KH cá nhân"}, "answer": "C", "explain": "TT 77/2025: Không cho phép hạ phiên bản Mobile Banking khi cài lại/kích hoạt lại."},
+        {"q": "Tần suất kiểm soát phiên bản Mobile Banking theo TT 77/2025?", "options": {"A": "Hàng tháng", "B": "Định kỳ 3 tháng/lần", "C": "6 tháng/lần", "D": "Hàng năm"}, "answer": "B", "explain": "TT 77: Định kỳ 3 tháng/lần kiểm soát phiên bản Mobile Banking."},
+        {"q": "Đối tượng mới được TT 77/2025 bổ sung vào phạm vi áp dụng là gì?", "options": {"A": "Công ty bảo hiểm", "B": "Tổ chức cung ứng dịch vụ Tiền di động (Mobile Money)", "C": "Quỹ đầu tư", "D": "Sàn giao dịch chứng khoán"}, "answer": "B", "explain": "Đ.1 TT 77: Bổ sung TC cung ứng DV Tiền di động."},
+        {"q": "App web Online Banking tham chiếu chuẩn an toàn nào?", "options": {"A": "ISO 30107", "B": "OWASP Top Ten", "C": "TCVN 11930:2017", "D": "PCI DSS"}, "answer": "B", "explain": "TT 77: App web tham chiếu OWASP Top Ten."},
+        {"q": "App Mobile Banking tham chiếu chuẩn an toàn nào?", "options": {"A": "OWASP Mobile Application Security", "B": "ISO 27001", "C": "TCVN 11930:2017", "D": "PCI DSS"}, "answer": "A", "explain": "TT 77: App Mobile Banking tham chiếu OWASP Mobile Application Security."},
+        {"q": "KH tổ chức 'MỚI' theo TT 77/2025 là gì?", "options": {"A": "TC mới mở TKTT lần đầu", "B": "TC mới đăng ký thành lập trong vòng 12 tháng HOẶC mới thiết lập quan hệ với đơn vị trong vòng 12 tháng", "C": "TC có tuổi đời dưới 5 năm", "D": "TC chưa có TKTT tại NH khác"}, "answer": "B", "explain": "Đ.2 K.11 TT 77: KH tổ chức mới = thành lập hoặc thiết lập quan hệ trong vòng 12 tháng."},
+        {"q": "Tổ chức nào KHÔNG phải áp dụng khớp sinh trắc/chữ ký điện tử an toàn theo TT 77 (loại trừ)?", "options": {"A": "Doanh nghiệp nhỏ", "B": "TC niêm yết / TC thuộc Fortune Global 500 / CQ nhà nước / TCTD", "C": "Hộ kinh doanh", "D": "Tất cả KH tổ chức"}, "answer": "B", "explain": "Đ.2 K.11 TT 77: Loại trừ gồm CQ nhà nước, TCTD, TC niêm yết, TC Fortune Global 500, NĐT nước ngoài đầu tư gián tiếp, TC khác do đơn vị tự chọn."},
+        {"q": "FIDO Biometric Requirement có yêu cầu sai số tối đa bao nhiêu?", "options": {"A": "< 1%", "B": "< 0.1%", "C": "< 0.01% trên mẫu ≥ 10.000", "D": "< 0.001%"}, "answer": "C", "explain": "FIDO Biometric Requirement: sai số < 0.01% trên mẫu ≥ 10.000."},
+        {"q": "Đối với đơn vị cung cấp DV cho cả cá nhân + tổ chức, các quy định Đ.3+Đ.10 TT 77 áp dụng từ khi nào?", "options": {"A": "01/03/2026", "B": "01/07/2026", "C": "01/10/2026", "D": "01/01/2027"}, "answer": "B", "explain": "Đ.12 K.2 TT 77: Áp dụng Đ.3+Đ.10 từ 01/07/2026 với đơn vị cung cấp DV cho cá nhân + tổ chức."},
+        {"q": "Đối với đơn vị CHỈ cung cấp DV cho KH tổ chức, Đ.3+Đ.10 áp dụng từ khi nào?", "options": {"A": "01/03/2026", "B": "01/07/2026", "C": "01/10/2026", "D": "01/01/2027"}, "answer": "C", "explain": "Đ.12 K.3: Áp dụng từ 01/10/2026 với đơn vị chỉ cung cấp DV cho tổ chức (không cá nhân)."},
+        {"q": "GD đăng ký tự động trích Nợ TK Tiền di động đã thực hiện trước TT 77 được tiếp tục đến khi nào?", "options": {"A": "Bị chấm dứt ngay", "B": "31/12/2026", "C": "01/03/2026", "D": "Vĩnh viễn"}, "answer": "B", "explain": "Đ.9 TT 77: GD tự động trích Nợ TK Tiền di động trước hiệu lực TT 77 tiếp tục đến 31/12/2026."}
+      ]
+    },
+    {
+      "id": "luat60_2024",
+      "title": "Luật 60/2024/QH15 — Dữ liệu",
+      "code": "60/2024/QH15",
+      "source_md": "ON_TAP_LUAT_60_2024_DU_LIEU.md",
+      "questions": [
+        {"q": "Luật Dữ liệu 60/2024 có hiệu lực từ ngày nào?", "options": {"A": "01/01/2025", "B": "01/07/2025", "C": "01/01/2026", "D": "01/07/2026"}, "answer": "B", "explain": "Luật DL 60/2024 hiệu lực 01/07/2025."},
+        {"q": "Luật Dữ liệu có bao nhiêu chương và Điều?", "options": {"A": "4 chương / 38 Điều", "B": "5 chương / 46 Điều", "C": "6 chương / 50 Điều", "D": "8 chương / 60 Điều"}, "answer": "B", "explain": "Luật DL có 5 chương, 46 Điều."},
+        {"q": "Cơ quan ĐẦU MỐI QLNN về Dữ liệu (Đ.8)?", "options": {"A": "Bộ Khoa học và Công nghệ", "B": "Bộ Công an", "C": "Bộ Thông tin và Truyền thông", "D": "Bộ Tư pháp"}, "answer": "B", "explain": "Đ.8: Bộ Công an là cơ quan đầu mối QLNN về DL (trừ phạm vi Bộ QP)."},
+        {"q": "Trung tâm Dữ liệu Quốc gia do cơ quan nào chủ trì vận hành?", "options": {"A": "Bộ KH&CN", "B": "Bộ Công an", "C": "Văn phòng Chính phủ", "D": "NHNN"}, "answer": "B", "explain": "Trung tâm DL QG do Bộ Công an chủ trì."},
+        {"q": "Theo Luật DL, DL được phân loại theo mấy cách?", "options": {"A": "1 cách", "B": "2 cách (chia sẻ + quan trọng)", "C": "3 cách", "D": "4 cách"}, "answer": "B", "explain": "Đ.13: 2 cách — theo tính chất chia sẻ + theo tính chất quan trọng."},
+        {"q": "Phân loại DL theo tính chất CHIA SẺ gồm mấy loại?", "options": {"A": "2 loại", "B": "3 loại: dùng chung / dùng riêng / mở", "C": "4 loại", "D": "5 loại"}, "answer": "B", "explain": "Đ.13.1.a: dùng chung / dùng riêng / mở."},
+        {"q": "Phân loại DL theo tính chất QUAN TRỌNG gồm mấy loại?", "options": {"A": "2 loại", "B": "3 loại: cốt lõi / quan trọng / khác", "C": "4 loại", "D": "5 loại"}, "answer": "B", "explain": "Đ.13.1.b: DL cốt lõi / DL quan trọng / DL khác."},
+        {"q": "'Dữ liệu mở' theo Luật DL là gì?", "options": {"A": "DL chỉ trong nội bộ CQNN", "B": "DL mà MỌI CQ-TC-CN có nhu cầu đều được tiếp cận, chia sẻ, khai thác, sử dụng", "C": "DL miễn phí trên internet", "D": "DL không có chữ ký số"}, "answer": "B", "explain": "Đ.3.4: DL mở = mọi CQ-TC-CN có nhu cầu đều được tiếp cận, chia sẻ, khai thác, sử dụng."},
+        {"q": "'Dữ liệu dùng chung' phục vụ phạm vi nào?", "options": {"A": "Toàn dân", "B": "CQ Đảng, Nhà nước, MTTQ VN và các TC chính trị-xã hội", "C": "Chỉ doanh nghiệp nhà nước", "D": "Chỉ cơ quan công an"}, "answer": "B", "explain": "Đ.3.2: DL dùng chung trong CQ Đảng, NN, MTTQ VN và các TC chính trị-XH."},
+        {"q": "Định nghĩa 'Dữ liệu số' theo Luật DL?", "options": {"A": "Bất kỳ file trên máy tính", "B": "DL về sự vật, hiện tượng, sự kiện gồm âm thanh/hình ảnh/chữ số/chữ viết/ký hiệu thể hiện dưới dạng kỹ thuật số", "C": "Chỉ dữ liệu CSDL", "D": "DL được mã hóa"}, "answer": "B", "explain": "Đ.3.1: DL số = DL về sự vật/hiện tượng/sự kiện gồm âm thanh/hình ảnh/chữ số/chữ viết/ký hiệu dạng kỹ thuật số."},
+        {"q": "CSDL tổng hợp QG được tổng hợp từ đâu?", "options": {"A": "Từ Internet", "B": "Từ các CSDL quốc gia chuyên ngành", "C": "Từ doanh nghiệp tư nhân", "D": "Từ điều tra dân số"}, "answer": "B", "explain": "CSDL tổng hợp QG tổng hợp từ các CSDL quốc gia chuyên ngành."},
+        {"q": "Quỹ Phát triển DL Quốc gia là loại quỹ gì?", "options": {"A": "Quỹ ngân sách trung ương", "B": "Quỹ tài chính nhà nước ngoài ngân sách", "C": "Quỹ tư nhân", "D": "Quỹ đầu tư nước ngoài"}, "answer": "B", "explain": "Quỹ Phát triển DL QG là quỹ tài chính nhà nước ngoài ngân sách."},
+        {"q": "2 loại sản phẩm/dịch vụ về DL theo Chương IV?", "options": {"A": "Sàn giao dịch DL + Dịch vụ trung gian DL", "B": "Cloud + Backup", "C": "Tự thu thập + Mua ngoài", "D": "Email + SMS"}, "answer": "A", "explain": "Chương IV: Sàn giao dịch DL + DV trung gian DL."},
+        {"q": "Có bao nhiêu khái niệm tại Điều 3 'Giải thích từ ngữ' Luật DL?", "options": {"A": "12 khái niệm", "B": "15 khái niệm", "C": "18 khái niệm", "D": "24 khái niệm"}, "answer": "C", "explain": "Đ.3 Luật DL có 18 khái niệm."},
+        {"q": "Luật DL 60/2024 có Luật cha không?", "options": {"A": "Có, là Luật ANM 2018", "B": "Không — là Luật TIÊN PHONG", "C": "Có, là Luật GDĐT 2023", "D": "Có, là Luật BVDLCN 2025"}, "answer": "B", "explain": "Luật DL 60/2024 là văn bản tiên phong, không có Luật cha."},
+        {"q": "Có bao nhiêu nguyên tắc xây dựng, phát triển, bảo vệ, quản trị, xử lý, sử dụng DL theo Đ.5?", "options": {"A": "3 nguyên tắc", "B": "5 nguyên tắc", "C": "6 nguyên tắc", "D": "8 nguyên tắc"}, "answer": "B", "explain": "Đ.5 có 5 nguyên tắc."}
+      ]
+    },
+    {
       "id": "nd356_2025",
       "title": "NĐ 356/2025/NĐ-CP — Hướng dẫn Luật BVDLCN",
       "code": "356/2025/NĐ-CP",
