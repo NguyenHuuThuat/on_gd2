@@ -3,6 +3,54 @@
   "description": "Bộ câu trắc nghiệm xây từ phần 'Câu hỏi tự kiểm tra' trong 3 file ON_TAP cá nhân.",
   "sets": [
     {
+      "id": "nq57_2024",
+      "title": "NQ 57-NQ/TW — Đột phá KHCN, ĐMST, CĐS quốc gia",
+      "code": "57-NQ/TW",
+      "source_md": "ON_TAP_NQ_57_2024_DOT_PHA_KHCN.md",
+      "questions": [
+        {"q": "NQ 57-NQ/TW do cơ quan nào ban hành?", "options": {"A": "Quốc hội", "B": "Chính phủ", "C": "Bộ Chính trị", "D": "Bộ KH&CN"}, "answer": "C", "explain": "NQ 57-NQ/TW do Bộ Chính trị ban hành (NQ Đảng)."},
+        {"q": "Ngày ban hành NQ 57?", "options": {"A": "01/01/2025", "B": "22/12/2024", "C": "09/01/2025", "D": "01/04/2025"}, "answer": "B", "explain": "NQ 57-NQ/TW ban hành 22/12/2024."},
+        {"q": "Ai đứng đầu Ban Chỉ đạo Trung ương thực hiện NQ 57?", "options": {"A": "Thủ tướng Chính phủ", "B": "Tổng Bí thư", "C": "Chủ tịch nước", "D": "Bộ trưởng Bộ KH&CN"}, "answer": "B", "explain": "Tổng Bí thư đứng đầu Ban Chỉ đạo TW về NQ 57."},
+        {"q": "Mục tiêu kinh tế số / GDP đến 2030 theo NQ 57?", "options": {"A": "≥ 20%", "B": "≥ 30%", "C": "≥ 40%", "D": "≥ 50%"}, "answer": "B", "explain": "NQ 57: Mục tiêu kinh tế số ≥ 30% GDP (2030)."},
+        {"q": "Mục tiêu kinh tế số / GDP đến 2045?", "options": {"A": "≥ 30%", "B": "≥ 40%", "C": "≥ 50%", "D": "≥ 70%"}, "answer": "C", "explain": "Mục tiêu ≥ 50% GDP đến 2045."},
+        {"q": "Ngân sách tối thiểu hằng năm cho KHCN-ĐMST-CĐS?", "options": {"A": "1% NSNN", "B": "2% NSNN", "C": "3% NSNN", "D": "5% NSNN"}, "answer": "C", "explain": "NQ 57: Tối thiểu 3% chi NSNN hằng năm cho KHCN-ĐMST-CĐS."},
+        {"q": "Trong tổng ngân sách KHCN-ĐMST-CĐS, dành cho công nghệ chiến lược (bán dẫn, AI, DL) là bao nhiêu?", "options": {"A": "5%", "B": "10%", "C": "15%", "D": "25%"}, "answer": "C", "explain": "15% chi cho công nghệ chiến lược (bán dẫn, AI, dữ liệu)."},
+        {"q": "Mục tiêu AI Việt Nam đến 2030?", "options": {"A": "Top 5 thế giới", "B": "Top 3 ASEAN", "C": "Top 10 ASEAN", "D": "Top 1 ASEAN"}, "answer": "B", "explain": "Mục tiêu AI VN Top 3 ASEAN (2030)."},
+        {"q": "Mục tiêu năng lực cạnh tranh số đến 2030 / 2045?", "options": {"A": "Top 100 / Top 50", "B": "Top 50 / Top 30 thế giới", "C": "Top 30 / Top 10", "D": "Top 20 / Top 5"}, "answer": "B", "explain": "Top 50 thế giới (2030); Top 30 thế giới (2045)."},
+        {"q": "Mục tiêu nhân lực số theo NQ 57?", "options": {"A": "10.000 chuyên gia + 100.000 kỹ sư", "B": "100.000 chuyên gia + 1 triệu kỹ sư công nghệ số", "C": "1.000 chuyên gia + 10.000 kỹ sư", "D": "Không quy định"}, "answer": "B", "explain": "Lần đầu: 100.000 chuyên gia + 1 triệu kỹ sư công nghệ số."},
+        {"q": "NQ 57 nâng cấp từ NQ nào trước đó?", "options": {"A": "NQ 36-NQ/TW", "B": "NQ 52-NQ/TW (2019)", "C": "NQ 99-NQ/TW", "D": "NQ 23-NQ/TW"}, "answer": "B", "explain": "NQ 57 (2024) nâng cấp từ NQ 52-NQ/TW (2019) với mục tiêu định lượng cụ thể hơn."},
+        {"q": "Phương châm cải cách thể chế của NQ 57?", "options": {"A": "Một luật cho tất cả", "B": "Luật dài, luật chi tiết", "C": "Luật ngắn, luật khung", "D": "Không ban hành luật mới"}, "answer": "C", "explain": "Phương châm 'luật ngắn, luật khung' → dẫn đến hàng loạt Luật mới (DL, BVDLCN, AI, CĐS, CNCNS)."}
+      ]
+    },
+    {
+      "id": "qd3090_2025",
+      "title": "QĐ 3090/QĐ-BKHCN — Khung Kiến Trúc Tổng Thể Quốc Gia Số",
+      "code": "3090/QĐ-BKHCN",
+      "source_md": "ON_TAP_QD_3090_2025_KIEN_TRUC_QGS.md",
+      "questions": [
+        {"q": "QĐ 3090 do Bộ nào ban hành?", "options": {"A": "Bộ Công an", "B": "Bộ Khoa học và Công nghệ", "C": "Bộ TT&TT", "D": "NHNN"}, "answer": "B", "explain": "QĐ 3090/QĐ-BKHCN do Bộ KH&CN ban hành 08/10/2025."},
+        {"q": "Khung Kiến Trúc Tổng Thể QG số có mấy lớp?", "options": {"A": "3 lớp", "B": "4 lớp", "C": "5 lớp", "D": "7 lớp"}, "answer": "B", "explain": "4 lớp: Hạ tầng & ANM → DL & nền tảng lõi → Ứng dụng & nghiệp vụ → Kênh tương tác."},
+        {"q": "Có bao nhiêu nguyên tắc cốt lõi trong Khung?", "options": {"A": "5 nguyên tắc", "B": "6 nguyên tắc", "C": "7 nguyên tắc", "D": "10 nguyên tắc"}, "answer": "C", "explain": "7 nguyên tắc cốt lõi."},
+        {"q": "Khung này mở rộng từ khung cũ nào?", "options": {"A": "Khung CPDT v2.0", "B": "Khung CPDT v3.0", "C": "Khung TOGAF", "D": "Khung Zachman"}, "answer": "B", "explain": "Mở rộng từ Khung CPDT v3.0 (chỉ chính phủ) sang khung tổng thể QG số."},
+        {"q": "Mục tiêu 2030 về DV công trực tuyến + AI?", "options": {"A": "50% TTHC", "B": "80% TTHC", "C": "100% TTHC + AI", "D": "Không quy định"}, "answer": "C", "explain": "100% TTHC cung cấp DVCTT toàn trình + AI."},
+        {"q": "Mục tiêu 2030 về DN nhỏ và vừa CĐS?", "options": {"A": "100.000 DN", "B": "500.000 DN", "C": "1 triệu DN", "D": "5 triệu DN"}, "answer": "C", "explain": "Mục tiêu 1 triệu DNNVV CĐS (2030)."},
+        {"q": "Một trong 7 nguyên tắc cốt lõi liên quan đến AI là gì?", "options": {"A": "Cấm dùng AI", "B": "AI First — vận hành thông minh, tự động hóa", "C": "Chỉ dùng AI nước ngoài", "D": "AI là phụ trợ"}, "answer": "B", "explain": "Nguyên tắc 3: Vận hành thông minh, tự động hóa (AI First)."}
+      ]
+    },
+    {
+      "id": "nq71_2025",
+      "title": "NQ 71/NQ-CP — Chương trình hành động NQ 57",
+      "code": "71/NQ-CP",
+      "source_md": "ON_TAP_NQ_71_2025_CTHD_NQ57.md",
+      "questions": [
+        {"q": "NQ 71/NQ-CP do cơ quan nào ban hành?", "options": {"A": "Quốc hội", "B": "Chính phủ", "C": "Bộ Chính trị", "D": "Bộ KH&CN"}, "answer": "B", "explain": "NQ 71/NQ-CP do Chính phủ ban hành."},
+        {"q": "NQ 71 ban hành ngày nào?", "options": {"A": "22/12/2024", "B": "01/04/2025", "C": "01/07/2025", "D": "01/10/2025"}, "answer": "B", "explain": "NQ 71/NQ-CP ban hành 01/04/2025."},
+        {"q": "NQ 71 sửa NQ nào?", "options": {"A": "NQ 57-NQ/TW", "B": "NQ 03/NQ-CP (09/01/2025)", "C": "NQ 52-NQ/TW", "D": "NQ 36-NQ/TW"}, "answer": "B", "explain": "NQ 71 sửa NQ 03/NQ-CP (09/01/2025)."},
+        {"q": "NQ 71 cụ thể hóa NQ nào của Bộ Chính trị?", "options": {"A": "NQ 52-NQ/TW", "B": "NQ 57-NQ/TW", "C": "NQ 36-NQ/TW", "D": "NQ 99-NQ/TW"}, "answer": "B", "explain": "NQ 71 cụ thể hóa NQ 57-NQ/TW thành chương trình hành động."},
+        {"q": "NQ 71 phân công lại trách nhiệm Bộ ngành do sự kiện gì?", "options": {"A": "Sáp nhập Bộ KH&CN vào Bộ TT&TT", "B": "Sáp nhập Bộ TT&TT vào Bộ KH&CN", "C": "Thành lập Bộ Dữ liệu", "D": "Giải thể Bộ KH&CN"}, "answer": "B", "explain": "Sáp nhập Bộ TT&TT vào Bộ KH&CN (03/2025) → cập nhật phân công."}
+      ]
+    },
+    {
       "id": "qd3579_2025",
       "title": "QĐ 3579/QĐ-NHNN — Chiến lược CĐS ngành Ngân hàng 2030",
       "code": "3579/QĐ-NHNN",
