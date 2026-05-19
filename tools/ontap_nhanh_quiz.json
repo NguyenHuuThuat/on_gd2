@@ -3,6 +3,44 @@
   "description": "Bộ câu trắc nghiệm xây từ phần 'Câu hỏi tự kiểm tra' trong 3 file ON_TAP cá nhân.",
   "sets": [
     {
+      "id": "qd749_2020",
+      "title": "QĐ 749/QĐ-TTg — Chương trình CĐS Quốc gia 2025-2030",
+      "code": "749/QĐ-TTg",
+      "source_md": "ON_TAP_QD_749_2020_CDS_QG.md",
+      "questions": [
+        {"q": "QĐ 749/QĐ-TTg ban hành ngày nào?", "options": {"A": "31/03/2022", "B": "03/06/2020", "C": "06/01/2022", "D": "01/01/2025"}, "answer": "B", "explain": "QĐ 749 ban hành 03/06/2020 — văn bản CĐS QG đầu tiên cấp QĐ TTg."},
+        {"q": "QĐ 749 có 3 trụ cột nào?", "options": {"A": "Hạ tầng + Nhân lực + Dữ liệu", "B": "Chính phủ số + Kinh tế số + Xã hội số", "C": "Công nghệ + Quy trình + Người dùng", "D": "AI + Big Data + Cloud"}, "answer": "B", "explain": "3 trụ cột CĐS: Chính phủ số + Kinh tế số + Xã hội số."},
+        {"q": "QĐ 749 có bao nhiêu lĩnh vực ưu tiên CĐS?", "options": {"A": "5 lĩnh vực", "B": "6 lĩnh vực", "C": "8 lĩnh vực", "D": "10 lĩnh vực"}, "answer": "C", "explain": "8 lĩnh vực: Y tế, Giáo dục, Tài chính-NH, Nông nghiệp, GTVT-Logistics, Năng lượng, TN-MT, Sản xuất CN."},
+        {"q": "Cơ quan chủ trì QĐ 749 ban đầu?", "options": {"A": "Bộ Công an", "B": "Bộ TT&TT (nay Bộ KH&CN)", "C": "Bộ Tài chính", "D": "NHNN"}, "answer": "B", "explain": "Bộ TT&TT chủ trì, sau sáp nhập về Bộ KH&CN."},
+        {"q": "Mục tiêu DVC mức 4 đến 2030?", "options": {"A": "50%", "B": "80%", "C": "100%", "D": "Không quy định"}, "answer": "C", "explain": "Mục tiêu DVC mức 4 đến 2030: 100%."}
+      ]
+    },
+    {
+      "id": "qd411_2022",
+      "title": "QĐ 411/QĐ-TTg — Chiến lược KTS-XHS đến 2025-2030",
+      "code": "411/QĐ-TTg",
+      "source_md": "ON_TAP_QD_411_2022_KTS_XHS.md",
+      "questions": [
+        {"q": "QĐ 411 ban hành ngày nào?", "options": {"A": "31/03/2022", "B": "03/06/2020", "C": "06/01/2022", "D": "12/12/2025"}, "answer": "A", "explain": "QĐ 411/QĐ-TTg ban hành 31/03/2022."},
+        {"q": "QĐ 411 cụ thể hóa trụ cột nào của QĐ 749?", "options": {"A": "Chính phủ số", "B": "Kinh tế số + Xã hội số (2/3 trụ cột)", "C": "Hạ tầng số", "D": "An toàn thông tin"}, "answer": "B", "explain": "QĐ 411 cụ thể hóa KTS + XHS (2/3 trụ cột của QĐ 749)."},
+        {"q": "Mục tiêu KTS chiếm GDP đến 2030 theo QĐ 411?", "options": {"A": "10%", "B": "20%", "C": "30%", "D": "50%"}, "answer": "C", "explain": "KTS chiếm 30% GDP đến 2030 (2025: 20%)."},
+        {"q": "Mục tiêu tỷ lệ dân ≥ 15 tuổi có TKTT đến 2030?", "options": {"A": "≥ 60%", "B": "≥ 80%", "C": "≥ 90%", "D": "≥ 95%"}, "answer": "D", "explain": "≥ 95% dân số từ 15 tuổi trở lên có TK NH (giống QĐ 3579)."},
+        {"q": "Có bao nhiêu ngành ưu tiên trong QĐ 411?", "options": {"A": "6", "B": "8", "C": "10", "D": "12"}, "answer": "B", "explain": "8 ngành: TMĐT + Nông nghiệp + Logistics + Năng lượng + TC-NH + Sản xuất XK + Du lịch + Giáo dục-Y tế."}
+      ]
+    },
+    {
+      "id": "qd2711_2025",
+      "title": "QĐ 2711/QĐ-TTg — Chiến lược đội ngũ trí thức 2030-2045",
+      "code": "2711/QĐ-TTg",
+      "source_md": "ON_TAP_QD_2711_2025_TRI_THUC.md",
+      "questions": [
+        {"q": "QĐ 2711 ban hành ngày nào?", "options": {"A": "31/03/2022", "B": "03/11/2025", "C": "12/12/2025", "D": "09/01/2026"}, "answer": "C", "explain": "QĐ 2711/QĐ-TTg ban hành 12/12/2025."},
+        {"q": "QĐ 2711 cụ thể hóa NQ nào của Đảng?", "options": {"A": "NQ 45-NQ/TW (2023) về đội ngũ trí thức", "B": "NQ 57-NQ/TW", "C": "NQ 52-NQ/TW", "D": "NQ 36-NQ/TW"}, "answer": "A", "explain": "Cụ thể hóa NQ 45-NQ/TW (2023) về đội ngũ trí thức."},
+        {"q": "Mục tiêu nhân lực R&D / vạn dân đến 2030?", "options": {"A": "5 người", "B": "8 người", "C": "12 người / vạn dân", "D": "20 người"}, "answer": "C", "explain": "12 người R&D toàn thời gian / vạn dân (2030) — giống NQ 57."},
+        {"q": "Tầm nhìn của QĐ 2711 đến năm nào?", "options": {"A": "2030", "B": "2035", "C": "2045", "D": "2050"}, "answer": "C", "explain": "QĐ 2711 đặt tầm nhìn đến 2045."}
+      ]
+    },
+    {
       "id": "nd262_2025",
       "title": "NĐ 262/2025/NĐ-CP — Hướng dẫn Luật KHCN ĐMST (thông tin, thống kê)",
       "code": "262/2025/NĐ-CP",
