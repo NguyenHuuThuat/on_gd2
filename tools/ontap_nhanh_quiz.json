@@ -3,6 +3,63 @@
   "description": "Bộ câu trắc nghiệm xây từ phần 'Câu hỏi tự kiểm tra' trong 3 file ON_TAP cá nhân.",
   "sets": [
     {
+      "id": "luat134_2025",
+      "title": "Luật 134/2025/QH15 — Trí tuệ nhân tạo (AI)",
+      "code": "134/2025/QH15",
+      "source_md": "ON_TAP_LUAT_134_2025_AI.md",
+      "questions": [
+        {"q": "Luật AI 134/2025 phân loại AI thành mấy mức rủi ro?", "options": {"A": "2 mức", "B": "3 mức: Cao - Trung - Thấp", "C": "4 mức", "D": "5 mức"}, "answer": "B", "explain": "Đ.9: 3 mức rủi ro AI — Cao / Trung bình / Thấp."},
+        {"q": "AI rủi ro CAO phải làm gì trước khi đưa vào sử dụng?", "options": {"A": "Đăng ký với Bộ TT&TT", "B": "Đánh giá sự phù hợp (Conformity Assessment)", "C": "Mua bảo hiểm", "D": "Đăng ký bản quyền"}, "answer": "B", "explain": "Đ.13: HT AI rủi ro cao phải được đánh giá sự phù hợp trước khi đưa vào sử dụng."},
+        {"q": "Đặc điểm của AI 'rủi ro CAO'?", "options": {"A": "Gây nhầm lẫn nhỏ", "B": "Gây thiệt hại đáng kể", "C": "Không gây thiệt hại", "D": "Chỉ ảnh hưởng tài chính"}, "answer": "B", "explain": "Đ.9.1.a: Rủi ro cao = gây thiệt hại ĐÁNG KỂ."},
+        {"q": "Đặc điểm của AI 'rủi ro TRUNG BÌNH'?", "options": {"A": "Gây nguy hiểm tính mạng", "B": "Gây nhầm lẫn, tác động hoặc thao túng người dùng", "C": "Không gây tác động", "D": "Chỉ ảnh hưởng môi trường"}, "answer": "B", "explain": "Đ.9.1.b: Rủi ro trung bình = gây nhầm lẫn, tác động/thao túng người dùng."},
+        {"q": "Nội dung do AI tạo (âm thanh/hình ảnh/video) phải được đánh dấu thế nào?", "options": {"A": "Bằng logo công ty", "B": "Định dạng MÁY ĐỌC (machine-readable)", "C": "Bằng dấu mộc đỏ", "D": "Không cần đánh dấu"}, "answer": "B", "explain": "Đ.11.2: Nội dung AI tạo phải được đánh dấu ở định dạng MÁY ĐỌC."},
+        {"q": "Deepfake mô phỏng người thật, sự kiện thật phải gắn nhãn thế nào?", "options": {"A": "Không cần", "B": "Chỉ máy đọc được", "C": "DỄ NHẬN BIẾT (cho người dùng)", "D": "Chỉ trong metadata"}, "answer": "C", "explain": "Đ.11.4: Deepfake/mô phỏng người thật phải gắn nhãn DỄ NHẬN BIẾT."},
+        {"q": "'Sự cố nghiêm trọng' AI là gì?", "options": {"A": "AI bị treo máy", "B": "Sự kiện gây/có nguy cơ gây thiệt hại đáng kể đến tính mạng/sức khỏe/quyền con người/tài sản/ANM/TT công cộng", "C": "AI trả lời sai", "D": "Mất kết nối Internet"}, "answer": "B", "explain": "Đ.3.8: Sự cố nghiêm trọng = thiệt hại đáng kể đến tính mạng, sức khỏe, quyền con người, tài sản, ANM, TT công cộng."},
+        {"q": "Sử dụng AI giả mạo giọng nói người thật để lừa dối có được phép không?", "options": {"A": "Có, nếu có lý do chính đáng", "B": "Có, nếu công khai", "C": "KHÔNG — hành vi cấm", "D": "Tuỳ ngữ cảnh"}, "answer": "C", "explain": "Đ.7.2.b: Cấm sử dụng yếu tố giả mạo/mô phỏng người thật để lừa dối, thao túng nhận thức, hành vi."},
+        {"q": "Luật AI 134/2025 có bao nhiêu yêu cầu quản lý AI rủi ro cao (Đ.14)?", "options": {"A": "3 yêu cầu", "B": "5 yêu cầu", "C": "7 yêu cầu", "D": "10 yêu cầu"}, "answer": "C", "explain": "Đ.14: 7 yêu cầu — quản lý rủi ro + quản trị DL + nhật ký + giám sát con người + xử lý sự cố + minh bạch + giải trình."},
+        {"q": "Luật AI Việt Nam ban hành ngày nào?", "options": {"A": "01/01/2025", "B": "01/07/2025", "C": "10/12/2025", "D": "11/12/2025"}, "answer": "C", "explain": "Luật AI 134/2025/QH15 ban hành 10/12/2025."},
+        {"q": "Định nghĩa AI theo Luật 134/2025?", "options": {"A": "Chỉ là chatbot", "B": "Việc thực hiện bằng điện tử các năng lực trí tuệ con người: học tập, suy luận, nhận thức, phán đoán, hiểu ngôn ngữ tự nhiên", "C": "Tự động hóa quy trình", "D": "Phần mềm phân tích dữ liệu"}, "answer": "B", "explain": "Đ.3.1: AI = việc thực hiện bằng điện tử các năng lực trí tuệ con người."},
+        {"q": "Hệ thống AI có đặc điểm gì so với phần mềm thường?", "options": {"A": "Không khác gì", "B": "Có khả năng TỰ THÍCH NGHI + tạo đầu ra ảnh hưởng đến môi trường vật lý/số", "C": "Phải online", "D": "Phải có giao diện đẹp"}, "answer": "B", "explain": "Đ.3.2: HT AI có khả năng tự thích nghi, tạo đầu ra ảnh hưởng môi trường."}
+      ]
+    },
+    {
+      "id": "nd94_2025",
+      "title": "NĐ 94/2025/NĐ-CP — Sandbox Ngân hàng",
+      "code": "94/2025/NĐ-CP",
+      "source_md": "ON_TAP_ND_94_2025_SANDBOX.md",
+      "questions": [
+        {"q": "NĐ 94/2025 quy định về gì?", "options": {"A": "Quản lý tiền mặt", "B": "Cơ chế thử nghiệm có kiểm soát (Sandbox) trong lĩnh vực ngân hàng", "C": "Cấp phép ngân hàng nước ngoài", "D": "Lãi suất NH"}, "answer": "B", "explain": "NĐ 94/2025 = Sandbox NH (Regulatory Sandbox) đầu tiên của VN."},
+        {"q": "Có mấy giải pháp được tham gia Sandbox NH?", "options": {"A": "2 giải pháp", "B": "3 giải pháp: P2P + Credit scoring + Open API", "C": "5 giải pháp", "D": "Không giới hạn"}, "answer": "B", "explain": "Đ.1 K.2: 3 giải pháp — Cho vay ngang hàng (P2P), Chấm điểm tín dụng, Open API."},
+        {"q": "Cơ quan chủ trì Sandbox NH?", "options": {"A": "Bộ Tài chính", "B": "Bộ KH&CN", "C": "NHNN", "D": "Bộ Công an"}, "answer": "C", "explain": "NHNN chủ trì giám sát Sandbox, cấp Giấy chứng nhận tham gia."},
+        {"q": "Thời gian thử nghiệm Sandbox tối đa?", "options": {"A": "6 tháng", "B": "1 năm", "C": "2 năm kể từ khi NHNN cấp Giấy chứng nhận", "D": "5 năm"}, "answer": "C", "explain": "Đ.6.1: Tối đa 2 năm tùy giải pháp, từ khi NHNN cấp Giấy chứng nhận."},
+        {"q": "Thời gian gia hạn Sandbox tối đa mỗi lần?", "options": {"A": "3 tháng", "B": "6 tháng", "C": "1 năm", "D": "2 năm"}, "answer": "C", "explain": "Đ.20: Có thể gia hạn, mỗi lần không quá 1 năm."},
+        {"q": "Công ty cho vay ngang hàng (P2P) trong Sandbox có được kinh doanh hoạt động khác không?", "options": {"A": "Có, được kinh doanh đa ngành", "B": "KHÔNG — chỉ được cung ứng P2P trong phạm vi thử nghiệm", "C": "Có, nếu được NHNN phê duyệt", "D": "Chỉ với KH cá nhân"}, "answer": "B", "explain": "Đ.6.3.c: P2P chỉ làm P2P trong sandbox, không kinh doanh khác."},
+        {"q": "Công ty P2P trong Sandbox có được cung cấp BIỆN PHÁP BẢO ĐẢM cho khoản vay không?", "options": {"A": "Có, để bảo vệ KH", "B": "KHÔNG được cung cấp biện pháp bảo đảm", "C": "Chỉ bảo đảm 50% giá trị", "D": "Tuỳ thỏa thuận"}, "answer": "B", "explain": "Đ.6.3.c: P2P trong sandbox KHÔNG được cung cấp biện pháp bảo đảm cho khoản vay."},
+        {"q": "NĐ 94/2025 cụ thể hóa Luật nào?", "options": {"A": "Luật ANM 2018", "B": "Luật BVDLCN 2025", "C": "Luật TCTD 32/2024", "D": "Luật GDĐT 2023"}, "answer": "C", "explain": "NĐ 94/2025 cụ thể hóa Luật TCTD 32/2024."},
+        {"q": "Sandbox NH Việt Nam mô phỏng mô hình của những nước nào?", "options": {"A": "Trung Quốc + Nhật Bản", "B": "Mỹ + Hàn Quốc", "C": "UK FCA + Singapore MAS", "D": "Ấn Độ + Indonesia"}, "answer": "C", "explain": "Mô hình tương tự UK FCA và Singapore MAS."},
+        {"q": "Năm ban hành NĐ 94/2025?", "options": {"A": "2023", "B": "2024", "C": "2025 (29/04/2025)", "D": "2026"}, "answer": "C", "explain": "NĐ 94/2025/NĐ-CP ban hành 29/04/2025."},
+        {"q": "Điều kiện chính để giải pháp được tham gia Sandbox?", "options": {"A": "Có vốn lớn", "B": "Mới + giá trị gia tăng + có khung quản lý rủi ro + khả thi cung ứng sau thử nghiệm", "C": "Có kinh nghiệm 5 năm", "D": "Có đối tác nước ngoài"}, "answer": "B", "explain": "Đ.8: 4 điều kiện — mới + giá trị + quản lý rủi ro + khả thi."}
+      ]
+    },
+    {
+      "id": "tt15_2024",
+      "title": "TT 15/2024/TT-NHNN — Thanh toán không dùng tiền mặt",
+      "code": "15/2024/TT-NHNN",
+      "source_md": "ON_TAP_TT_15_2024_TTKDTM.md",
+      "questions": [
+        {"q": "TT 15/2024 quy định về gì?", "options": {"A": "Tài khoản thanh toán", "B": "Cung ứng dịch vụ thanh toán KHÔNG DÙNG TIỀN MẶT (TTKDTM) qua TKTT", "C": "Thẻ ngân hàng", "D": "An toàn DV trực tuyến"}, "answer": "B", "explain": "TT 15/2024 quy định TTKDTM qua TKTT, bao gồm lệnh chi, ủy nhiệm chi, nhờ thu, ủy nhiệm thu, chuyển tiền, thu/chi hộ."},
+        {"q": "Thông tư nào sửa đổi TT 15/2024?", "options": {"A": "TT 25/2025", "B": "TT 30/2025/TT-NHNN", "C": "TT 77/2025", "D": "TT 64/2024"}, "answer": "B", "explain": "TT 30/2025/TT-NHNN (30/09/2025) sửa đổi TT 15/2024."},
+        {"q": "Ủy nhiệm CHI là gì?", "options": {"A": "Bên thụ hưởng đề nghị NH trích tiền", "B": "Bên TRẢ TIỀN ra lệnh NH trích tiền trên TKTT để trả/chuyển cho bên thụ hưởng", "C": "Lệnh phong tỏa tài khoản", "D": "Yêu cầu rút tiền mặt"}, "answer": "B", "explain": "Đ.3.3: Ủy nhiệm chi = bên TRẢ TIỀN ra lệnh."},
+        {"q": "Ủy nhiệm THU là gì?", "options": {"A": "Bên trả tiền ra lệnh", "B": "Bên THỤ HƯỞNG đề nghị NH trích tiền trên TKTT bên trả tiền (cần thỏa thuận bằng văn bản)", "C": "Lệnh rút tiền từ ATM", "D": "Đăng ký nhận lương"}, "answer": "B", "explain": "Đ.3.4: Ủy nhiệm thu = bên THỤ HƯỞNG đề nghị, cần thỏa thuận bằng văn bản trước."},
+        {"q": "Thời hạn thực hiện ủy nhiệm chi sau khi nhận?", "options": {"A": "Ngay lập tức", "B": "Chậm nhất 1 ngày làm việc", "C": "3 ngày làm việc", "D": "5 ngày làm việc"}, "answer": "B", "explain": "Đ.8: Chậm nhất 1 ngày làm việc kể từ khi nhận ủy nhiệm chi."},
+        {"q": "Thời hạn KH đề nghị tra soát, khiếu nại tối thiểu?", "options": {"A": "30 ngày", "B": "45 ngày", "C": "60 ngày kể từ ngày phát sinh GD", "D": "90 ngày"}, "answer": "C", "explain": "Đ.6.2: Thời hạn KH đề nghị tra soát/khiếu nại không ít hơn 60 ngày."},
+        {"q": "Thời hạn TC cung ứng DV xử lý khiếu nại?", "options": {"A": "15 ngày làm việc", "B": "≤ 30 ngày làm việc", "C": "60 ngày", "D": "90 ngày"}, "answer": "B", "explain": "Đ.6.3.c: Trả lời/xử lý khiếu nại trong thời hạn theo thỏa thuận nhưng không quá 30 ngày làm việc."},
+        {"q": "Chứng từ thanh toán theo TT 15/2024 gồm những loại nào?", "options": {"A": "Chỉ chứng từ giấy", "B": "Chứng từ giấy + chứng từ điện tử", "C": "Chỉ chứng từ điện tử", "D": "Chỉ séc"}, "answer": "B", "explain": "Đ.3.1: Chứng từ thanh toán gồm chứng từ giấy + chứng từ điện tử."},
+        {"q": "TT 15/2024 cụ thể hóa Luật nào?", "options": {"A": "Luật BVDLCN 91/2025", "B": "Luật TCTD 32/2024", "C": "Luật GDĐT 2023", "D": "Luật ANM 2018"}, "answer": "B", "explain": "TT 15/2024 cụ thể hóa Luật TCTD 32/2024 + NĐ 52/2024/NĐ-CP về TTKDTM."},
+        {"q": "Trong ủy nhiệm thu, bên thụ hưởng cần điều gì để được trích tiền tự động?", "options": {"A": "Có giấy giới thiệu", "B": "Có thỏa thuận bằng văn bản với bên trả tiền", "C": "Có mật khẩu của bên trả tiền", "D": "Báo cáo NHNN"}, "answer": "B", "explain": "Đ.3.4: Ủy nhiệm thu phải dựa trên thỏa thuận bằng văn bản giữa bên thụ hưởng và bên trả tiền."}
+      ]
+    },
+    {
       "id": "tt17_2024",
       "title": "TT 17/2024/TT-NHNN — Tài khoản thanh toán",
       "code": "17/2024/TT-NHNN",
