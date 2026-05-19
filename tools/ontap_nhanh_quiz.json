@@ -3,6 +3,53 @@
   "description": "Bộ câu trắc nghiệm xây từ phần 'Câu hỏi tự kiểm tra' trong 3 file ON_TAP cá nhân.",
   "sets": [
     {
+      "id": "qd3579_2025",
+      "title": "QĐ 3579/QĐ-NHNN — Chiến lược CĐS ngành Ngân hàng 2030",
+      "code": "3579/QĐ-NHNN",
+      "source_md": "ON_TAP_QD_3579_2025_CDS_NH.md",
+      "questions": [
+        {"q": "QĐ 3579/QĐ-NHNN ban hành ngày nào?", "options": {"A": "01/01/2025", "B": "03/11/2025", "C": "31/12/2025", "D": "01/03/2026"}, "answer": "B", "explain": "QĐ 3579/QĐ-NHNN ban hành 03/11/2025."},
+        {"q": "QĐ 3579 đặt mục tiêu CĐS ngành NH đến năm nào?", "options": {"A": "2025", "B": "2027", "C": "2030", "D": "2035"}, "answer": "C", "explain": "Chiến lược CĐS ngành NH đến năm 2030."},
+        {"q": "QĐ 3579 thay thế Quyết định nào?", "options": {"A": "QĐ 2655/QĐ-NHNN", "B": "QĐ 810/QĐ-NHNN", "C": "QĐ 1789/QĐ-NHNN", "D": "QĐ 1938/QĐ-NHNN"}, "answer": "B", "explain": "QĐ 3579 thay thế QĐ 810/QĐ-NHNN (2021) — bản chiến lược CĐS NH cũ."},
+        {"q": "Mục tiêu tỷ lệ dân số ≥ 15 tuổi có TKTT đến 2030?", "options": {"A": "≥ 70%", "B": "≥ 80%", "C": "≥ 90%", "D": "≥ 95%"}, "answer": "D", "explain": "Mục tiêu ≥ 95% dân số từ 15 tuổi trở lên có TKTT."},
+        {"q": "Mục tiêu TTKDTM so với GDP đến 2030?", "options": {"A": "Gấp 10 lần", "B": "Gấp 20 lần", "C": "Gấp 30 lần", "D": "Gấp 50 lần"}, "answer": "C", "explain": "Mục tiêu TTKDTM gấp 30 lần GDP."},
+        {"q": "Mục tiêu % giao dịch KH thực hiện qua kênh số đến 2030?", "options": {"A": "≥ 50%", "B": "≥ 70%", "C": "≥ 80%", "D": "≥ 95%"}, "answer": "C", "explain": "Mục tiêu ≥ 80% GD KH qua kênh số."},
+        {"q": "Mục tiêu % cán bộ ngành NH được đào tạo kỹ năng số?", "options": {"A": "≥ 60%", "B": "≥ 80%", "C": "≥ 95%", "D": "100%"}, "answer": "D", "explain": "Mục tiêu 100% cán bộ ngành được đào tạo kỹ năng số."},
+        {"q": "Tinh thần cốt lõi của QĐ 3579?", "options": {"A": "Công nghệ là tất cả", "B": "'Người dân và DN là trung tâm' + 'Dữ liệu là tài sản chiến lược'", "C": "Cải cách hành chính là then chốt", "D": "Tăng trưởng tín dụng cao"}, "answer": "B", "explain": "QĐ 3579: Người dân + DN là trung tâm + Dữ liệu là tài sản chiến lược."}
+      ]
+    },
+    {
+      "id": "nd265_2025",
+      "title": "NĐ 265/2025/NĐ-CP — Hướng dẫn Luật KHCN-ĐMST (tài chính, đầu tư)",
+      "code": "265/2025/NĐ-CP",
+      "source_md": "ON_TAP_ND_265_2025_KHCN_TC.md",
+      "questions": [
+        {"q": "NĐ 265/2025 hướng dẫn Luật nào?", "options": {"A": "Luật DL 60/2024", "B": "Luật KH-CN-ĐMST 2023", "C": "Luật BVDLCN 91/2025", "D": "Luật CNCNS 71/2025"}, "answer": "B", "explain": "NĐ 265/2025 hướng dẫn Luật Khoa học - Công nghệ - Đổi mới sáng tạo."},
+        {"q": "Nội dung chính của NĐ 265/2025?", "options": {"A": "Quản lý ngân hàng", "B": "Tài chính, đầu tư cho KHDMST + hỗ trợ startup", "C": "Bảo vệ DLCN", "D": "An toàn HTTT"}, "answer": "B", "explain": "NĐ 265/2025: Quản lý vốn đầu tư KHDMST + hỗ trợ tài chính startup + quỹ phát triển KH-CN."},
+        {"q": "Quỹ phát triển KH-CN có ở những cấp nào?", "options": {"A": "Chỉ trung ương", "B": "Trung ương + địa phương", "C": "Chỉ địa phương", "D": "Chỉ tỉnh"}, "answer": "B", "explain": "NĐ 265: Quỹ phát triển KH-CN có cấp TW và địa phương."},
+        {"q": "NĐ 265/2025 cụ thể hóa Nghị quyết nào của Đảng?", "options": {"A": "NQ 10-NQ/TW", "B": "NQ 57-NQ/TW", "C": "NQ 36-NQ/TW", "D": "NQ 99-NQ/TW"}, "answer": "B", "explain": "NĐ 265 bổ trợ NQ 57-NQ/TW về KHCN ĐMST CĐS."},
+        {"q": "NĐ 265/2025 ban hành ngày nào?", "options": {"A": "01/01/2025", "B": "14/10/2025", "C": "31/12/2025", "D": "01/03/2026"}, "answer": "B", "explain": "NĐ 265/2025/NĐ-CP ban hành 14/10/2025."}
+      ]
+    },
+    {
+      "id": "tt30_2025",
+      "title": "TT 30/2025/TT-NHNN — Sửa đổi TT 15/2024 (TTKDTM)",
+      "code": "30/2025/TT-NHNN",
+      "source_md": "ON_TAP_TT_30_2025_SUA_TT_15.md",
+      "questions": [
+        {"q": "TT 30/2025 sửa đổi TT nào?", "options": {"A": "TT 17/2024", "B": "TT 15/2024", "C": "TT 50/2024", "D": "TT 18/2024"}, "answer": "B", "explain": "TT 30/2025/TT-NHNN sửa đổi TT 15/2024/TT-NHNN về TTKDTM."},
+        {"q": "TT 30/2025 hiệu lực từ ngày nào?", "options": {"A": "30/09/2025", "B": "01/11/2025", "C": "18/11/2025", "D": "01/04/2026"}, "answer": "C", "explain": "TT 30/2025 hiệu lực chung từ 18/11/2025."},
+        {"q": "Khoản 5 Điều 7 TT 30/2025 áp dụng từ khi nào?", "options": {"A": "18/11/2025", "B": "01/01/2026", "C": "01/03/2026", "D": "01/04/2026"}, "answer": "D", "explain": "K.5 Đ.7 áp dụng từ 01/04/2026."},
+        {"q": "Tổng thời gian gián đoạn DV thanh toán/năm tối đa?", "options": {"A": "1 giờ", "B": "2 giờ", "C": "4 giờ", "D": "10 giờ"}, "answer": "C", "explain": "Đ.7 K.4: Tổng gián đoạn DV không quá 4 giờ/năm."},
+        {"q": "Mỗi lần gián đoạn dịch vụ tối đa?", "options": {"A": "15 phút", "B": "30 phút", "C": "1 giờ", "D": "2 giờ"}, "answer": "B", "explain": "Đ.7 K.4: Mỗi lần gián đoạn không quá 30 phút."},
+        {"q": "Báo trước bảo trì/nâng cấp hệ thống trong bao lâu?", "options": {"A": "1 giờ", "B": "4 giờ", "C": "12 giờ", "D": "24 giờ"}, "answer": "D", "explain": "Báo trước 24 giờ khi bảo trì/nâng cấp."},
+        {"q": "Báo cáo NHNN khi sự cố quá 30 phút trong bao lâu?", "options": {"A": "1 giờ", "B": "4 giờ", "C": "24 giờ", "D": "3 ngày"}, "answer": "B", "explain": "Báo cáo NHNN trong 4 giờ khi sự cố quá 30 phút."},
+        {"q": "Báo cáo sự cố ATTT đầy đủ trong bao lâu?", "options": {"A": "1 ngày làm việc", "B": "3 ngày làm việc", "C": "5 ngày làm việc", "D": "10 ngày làm việc"}, "answer": "B", "explain": "Gửi báo cáo sự cố đầy đủ trong 3 ngày làm việc."},
+        {"q": "Xử lý khiếu nại TTKDTM trong bao lâu?", "options": {"A": "5 ngày làm việc", "B": "10 ngày làm việc", "C": "15 ngày làm việc", "D": "30 ngày làm việc"}, "answer": "C", "explain": "Đ.6: Xử lý khiếu nại TTKDTM trong 15 ngày làm việc."},
+        {"q": "TT 30/2025 cập nhật theo NĐ nào về cơ cấu NHNN mới?", "options": {"A": "NĐ 26/2025/NĐ-CP", "B": "NĐ 52/2024/NĐ-CP", "C": "NĐ 53/2022/NĐ-CP", "D": "NĐ 356/2025/NĐ-CP"}, "answer": "A", "explain": "Cập nhật theo NĐ 26/2025/NĐ-CP về cơ cấu NHNN mới (7 chi nhánh khu vực)."}
+      ]
+    },
+    {
       "id": "luat71_2025",
       "title": "Luật 71/2025/QH15 — Công nghiệp công nghệ số",
       "code": "71/2025/QH15",
