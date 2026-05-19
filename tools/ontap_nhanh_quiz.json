@@ -3,6 +3,56 @@
   "description": "Bộ câu trắc nghiệm xây từ phần 'Câu hỏi tự kiểm tra' trong 3 file ON_TAP cá nhân.",
   "sets": [
     {
+      "id": "luat32_2024",
+      "title": "Luật 32/2024/QH15 — Các tổ chức tín dụng",
+      "code": "32/2024/QH15",
+      "source_md": "ON_TAP_LUAT_32_2024_TCTD.md",
+      "questions": [
+        {"q": "Luật TCTD 32/2024 hiệu lực từ ngày nào?", "options": {"A": "18/01/2024", "B": "01/07/2024", "C": "01/01/2025", "D": "01/07/2025"}, "answer": "B", "explain": "Luật TCTD 32/2024 hiệu lực 01/07/2024."},
+        {"q": "Giới hạn sở hữu CÁ NHÂN tối đa tại 1 TCTD?", "options": {"A": "3%", "B": "5%", "C": "10%", "D": "15%"}, "answer": "B", "explain": "Cá nhân sở hữu tối đa 5% vốn điều lệ TCTD (chống sở hữu chéo)."},
+        {"q": "Giới hạn sở hữu TỔ CHỨC tối đa tại 1 TCTD?", "options": {"A": "5%", "B": "10%", "C": "15%", "D": "20%"}, "answer": "B", "explain": "Tổ chức sở hữu tối đa 10% vốn điều lệ TCTD."},
+        {"q": "Cá nhân + người liên quan sở hữu tối đa?", "options": {"A": "10%", "B": "15%", "C": "20%", "D": "25%"}, "answer": "B", "explain": "Cá nhân + người liên quan: ≤ 15% vốn điều lệ."},
+        {"q": "Cơ chế đột phá mới của Luật TCTD 2024 là gì?", "options": {"A": "Tăng vốn pháp định", "B": "Cơ chế CAN THIỆP SỚM (Early Intervention) — chủ động xử lý TCTD yếu kém", "C": "Chỉ NHTM được hoạt động", "D": "Cấm sở hữu chéo tuyệt đối"}, "answer": "B", "explain": "Cơ chế can thiệp sớm — đột phá mới của Luật 32/2024."},
+        {"q": "Đại lý ngân hàng (Banking Agent) có thể là ai?", "options": {"A": "Chỉ chi nhánh NH", "B": "Bưu điện, fintech platform — uỷ quyền DV cơ bản", "C": "Chỉ doanh nghiệp lớn", "D": "Chỉ ATM"}, "answer": "B", "explain": "Đại lý NH mở rộng: bưu điện, fintech platform được uỷ quyền cung cấp DV NH cơ bản."},
+        {"q": "Lãi suất cho vay đặc biệt của BHTG VN trong tình huống khẩn cấp?", "options": {"A": "Theo lãi suất thị trường", "B": "0% (không TSBĐ)", "C": "5%", "D": "10%"}, "answer": "B", "explain": "BHTG cho vay đặc biệt 0% lãi suất, không cần TSBĐ trong tình huống khẩn cấp."},
+        {"q": "Luật TCTD 32/2024 thay thế Luật nào?", "options": {"A": "Luật TCTD 2004", "B": "Luật TCTD 2010", "C": "Luật NHNN 2010", "D": "Luật PCRT 2012"}, "answer": "B", "explain": "Thay thế Luật TCTD 2010."},
+        {"q": "NĐ nào cụ thể hóa Sandbox NH theo Luật TCTD 32/2024?", "options": {"A": "NĐ 53/2022", "B": "NĐ 94/2025/NĐ-CP", "C": "NĐ 356/2025", "D": "NĐ 265/2025"}, "answer": "B", "explain": "NĐ 94/2025/NĐ-CP cụ thể hóa Sandbox NH (P2P + Credit Scoring + Open API)."}
+      ]
+    },
+    {
+      "id": "nd53_2022",
+      "title": "NĐ 53/2022/NĐ-CP — Hướng dẫn Luật An ninh mạng",
+      "code": "53/2022/NĐ-CP",
+      "source_md": "ON_TAP_ND_53_2022_ANM.md",
+      "questions": [
+        {"q": "NĐ 53/2022 hiệu lực từ khi nào?", "options": {"A": "15/08/2022", "B": "01/10/2022", "C": "01/01/2023", "D": "01/07/2023"}, "answer": "B", "explain": "NĐ 53/2022 hiệu lực 01/10/2022."},
+        {"q": "NĐ 53/2022 hướng dẫn Luật nào?", "options": {"A": "Luật BVDLCN 91/2025", "B": "Luật ANM 24/2018/QH14", "C": "Luật ANTTM 86/2015", "D": "Luật DL 60/2024"}, "answer": "B", "explain": "NĐ 53/2022 hướng dẫn Luật An ninh mạng 24/2018/QH14."},
+        {"q": "DN nước ngoài thuộc lĩnh vực nào phải lưu DL tại VN?", "options": {"A": "Chỉ thương mại điện tử", "B": "9 lĩnh vực: viễn thông, lưu trữ DL, tên miền, TMĐT, thanh toán trực tuyến, trung gian thanh toán, MXH, game, tin nhắn/cuộc gọi", "C": "Chỉ ngân hàng", "D": "Mọi DN nước ngoài"}, "answer": "B", "explain": "Đ.26: 9 lĩnh vực phải lưu DL tại VN + đặt chi nhánh/VPĐD."},
+        {"q": "Có bao nhiêu lĩnh vực trọng yếu về ANQG theo NĐ 53/2022?", "options": {"A": "7 lĩnh vực", "B": "9 lĩnh vực", "C": "11 lĩnh vực", "D": "15 lĩnh vực"}, "answer": "C", "explain": "11 lĩnh vực trọng yếu: tài chính + năng lượng + viễn thông + giao thông + cấp nước + y tế + nông nghiệp + hàng không + cứu hộ + phát thanh + mạng CQNN."},
+        {"q": "Có bao nhiêu cấp độ HTTT theo NĐ 53/2022?", "options": {"A": "3 cấp", "B": "4 cấp", "C": "5 cấp", "D": "7 cấp"}, "answer": "B", "explain": "4 cấp độ HTTT."},
+        {"q": "Cơ quan đầu mối thực thi ANM theo NĐ 53/2022?", "options": {"A": "Bộ TT&TT", "B": "Bộ KH&CN", "C": "Bộ Công an", "D": "Bộ Quốc phòng"}, "answer": "C", "explain": "Bộ Công an là đầu mối thực thi ANM."},
+        {"q": "Ngoài lưu DL tại VN, DN nước ngoài còn phải làm gì khi có yêu cầu?", "options": {"A": "Đóng tài khoản người dùng", "B": "Đặt chi nhánh hoặc VPĐD tại VN", "C": "Báo cáo Bộ TT&TT hàng tháng", "D": "Đăng ký với UBND"}, "answer": "B", "explain": "Đ.26: Phải đặt chi nhánh hoặc VPĐD tại VN khi có yêu cầu."}
+      ]
+    },
+    {
+      "id": "qd20_2025",
+      "title": "QĐ 20/2025/QĐ-TTg — DM Dữ liệu cốt lõi, quan trọng",
+      "code": "20/2025/QĐ-TTg",
+      "source_md": "ON_TAP_QD_20_2025_DM_DL.md",
+      "questions": [
+        {"q": "QĐ 20/2025 hiệu lực từ khi nào?", "options": {"A": "01/01/2025", "B": "26/06/2025", "C": "01/07/2025", "D": "01/01/2026"}, "answer": "C", "explain": "QĐ 20/2025/QĐ-TTg ban hành 26/06/2025, hiệu lực 01/07/2025."},
+        {"q": "QĐ 20/2025 do ai ban hành?", "options": {"A": "Quốc hội", "B": "Chính phủ", "C": "Thủ tướng Chính phủ", "D": "Bộ Công an"}, "answer": "C", "explain": "Thủ tướng Chính phủ ban hành QĐ 20/2025."},
+        {"q": "QĐ 20/2025 cụ thể hóa Luật nào?", "options": {"A": "Luật BVDLCN 91/2025", "B": "Luật DL 60/2024 (Điều 13)", "C": "Luật CĐS 148/2025", "D": "Luật AI 134/2025"}, "answer": "B", "explain": "QĐ 20/2025 cụ thể hóa Luật DL 60/2024 Điều 13.1.b (phân loại DL theo quan trọng)."},
+        {"q": "Ngưỡng DL CỐT LÕI (công dân cơ bản)?", "options": {"A": "≥ 10.000 công dân", "B": "≥ 100.000 công dân", "C": "≥ 1.000.000 (1 triệu) công dân", "D": "≥ 10.000.000 công dân"}, "answer": "C", "explain": "DL cốt lõi: ≥ 1 triệu công dân cơ bản."},
+        {"q": "Ngưỡng DL CỐT LÕI (công dân nhạy cảm)?", "options": {"A": "≥ 1.000 công dân", "B": "≥ 10.000 công dân", "C": "≥ 100.000 công dân", "D": "≥ 1.000.000 công dân"}, "answer": "C", "explain": "DL cốt lõi: ≥ 100.000 công dân nhạy cảm."},
+        {"q": "Ngưỡng DL QUAN TRỌNG (công dân cơ bản)?", "options": {"A": "≥ 1.000 công dân", "B": "≥ 10.000 công dân", "C": "≥ 100.000 công dân", "D": "≥ 1.000.000 công dân"}, "answer": "C", "explain": "DL quan trọng: ≥ 100.000 công dân cơ bản."},
+        {"q": "Ngưỡng DL QUAN TRỌNG (công dân nhạy cảm)?", "options": {"A": "≥ 1.000 công dân", "B": "≥ 10.000 công dân", "C": "≥ 100.000 công dân", "D": "≥ 500.000 công dân"}, "answer": "B", "explain": "DL quan trọng: ≥ 10.000 công dân nhạy cảm."},
+        {"q": "Cơ quan chủ trì cập nhật DM DL hằng năm?", "options": {"A": "Bộ KH&CN", "B": "Bộ Công an", "C": "Bộ TT&TT", "D": "Văn phòng Chính phủ"}, "answer": "B", "explain": "Bộ Công an chủ trì cập nhật, phối hợp các Bộ."},
+        {"q": "DL hệ thống tài chính, ngân hàng thuộc loại nào?", "options": {"A": "DL cốt lõi", "B": "DL quan trọng", "C": "DL khác", "D": "Không phân loại"}, "answer": "B", "explain": "DL hệ thống tài chính NH thuộc DL quan trọng."},
+        {"q": "DL cốt lõi có được chuyển ra nước ngoài không?", "options": {"A": "Được tự do", "B": "Hạn chế (có quản lý)", "C": "Bị cấm tuyệt đối", "D": "Tuỳ Bộ Công an"}, "answer": "B", "explain": "DL cốt lõi bị hạn chế chuyển ra nước ngoài (không cấm tuyệt đối)."}
+      ]
+    },
+    {
       "id": "ct02_2026",
       "title": "CT 02/CT-NHNN 2026 — Đẩy mạnh CĐS & ATTT ngành NH 2026",
       "code": "02/CT-NHNN",
